@@ -47,6 +47,7 @@
 	<!-- <div class="user_container"> -->
 		<form action="user_login_ok.jsp" method="post">
 			<h1 class="subtitle">Mypage</h1>
+			<h2>현재 테스트입니다.</h2>
 			<p class="caution"><%=id %>님 환영합니다</p>
 				<input type="text" name="id" placeholder="Enter the id">
 				<input type="password" name="pw" placeholder="Enter the password">
