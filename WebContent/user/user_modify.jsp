@@ -1,5 +1,23 @@
+<%@page import="com.webpage.user.model.UserVO"%>
+<%@page import="com.webpage.user.model.UserDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+
+	if(session.getAttribute("user_id")==null){
+		response.sendRedirect("/Webpage/user/user_login.jsp");
+	}
+	
+	String id = (String)session.getAttribute("user_id");
+
+	UserDAO dao = UserDAO.getInstance();
+	UserVO vo = dao.getUserInfo(id);
+	
+	String nick = vo.getNick();
+	String email = vo.getEmail();
+	String address = vo.getAddress();
+
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,14 +59,14 @@
 
 
 	<section id="user">
-	<!-- <div class="user_container"> -->
-		<form action="user_signUp_ok.jsp" method="post" name="Form">
-			<h1>회원가입</h1>
+	
+		<form action="user_modify_ok.jsp" method="post" name="Form">
+			<h1>정보수정</h1>
 			<p class="caution">*표시는 필수사항 입니다.</p>
 				<table>
 					<tr>
-						<td>아이디 *</td>
-						<td><input type="text" name="id" placeholder="4글자이상 10글자 이하"></td>
+						<td>아이디(변경 X)</td>
+						<td><input type="text" name="id" value="<%=id%>" readonly></td>
 
 					<tr>
 						<td>비밀번호 *</td>
@@ -62,28 +80,27 @@
 					
 					<tr>
 						<td>닉네임 *</td>
-						<td><input type="text" name="nick"></td>
+						<td><input type="text" name="nick" value="<%= nick%>"></td>
 					</tr>
 					
 					<tr>
 						<td>이메일 *</td>
-						<td><input type="email" name="email"></td>
+						<td><input type="email" name="email" value="<%= email%>"></td>
 					</tr>
 					
 					<tr>
 						<td>주소</td>
-						<td><input type="text" name="address"></td>
+						<td><input type="text" name="address" value="<%= address%>"></td>
 					</tr>
 				</table>
 				<br>
 				<input type="button" value="확인" onclick="check()">
-				<input type="button" value="취소" onclick="location.href='/Webpage/user/user_login.jsp'">
+				<input type="button" value="이전" onclick="location.href='/Webpage/user/user_mypage.jsp'">
 				
 	
 		
 		</form>
 		
-		<!-- </div> -->
 		
 	</section>
 
@@ -92,13 +109,7 @@
 
 <script>
 		function check(){
-			if(document.Form.id.value==''){
-				alert("아이디는 필수 입력 항목입니다.");
-				return;
-			}else if(document.Form.id.value.length < 4){
-				alert("아이디는 4글자 이상 입력해야만 합니다.");
-				return;
-			}else if(document.Form.pw.value==''){
+			if(document.Form.pw.value==''){
 				alert("비밀번호는 필수 입력 항목입니다.");
 			}else if(document.Form.pw.value!=document.Form.pw_check.value){
 				alert("입력하신 두 개의 비밀번호가 일치하지 않습니다.");
@@ -109,7 +120,7 @@
 			}else if(document.Form.email.value==''){
 				alert("이메일은 필수사항입니다.");
 				return;
-			}else if(confirm("회원가입을 완료하시겠습니까?")){
+			}else if(confirm("정보수정을 완료하시겠습니까?")){
 				document.Form.submit();
 			}
 		}

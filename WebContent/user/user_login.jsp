@@ -43,7 +43,7 @@
 	<section id="user">
 	<!-- <div class="user_container"> -->
 		<form action="user_login_ok.jsp" method="post">
-			<h1 class="subtitle">Login</h1>
+			<h1>Login</h1>
 			<p class="caution">로그인을 통해 모든 홈페이지의 기능을 이용할 수 있습니다.</p>
 				<input type="text" name="id" placeholder="Enter the id">
 				<input type="password" name="pw" placeholder="Enter the password">

@@ -198,7 +198,54 @@ public class UserDAO {
 		
 	}
 	
+	public int delete(String id) {
+		int result = 0;
+		
+		String sql = "delete from user where id=?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			result = pstmt.executeUpdate();
+			
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+		return result;
+	}
 	
+	public int modify(UserVO vo) {
+		int result = 0;
+		
+		String sql = "update user set pw=?,nick=?,email=?,address=? where id=?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setString(1, vo.getPw() );
+			pstmt.setString(2, vo.getNick() );
+			pstmt.setString(3, vo.getEmail() );
+			pstmt.setString(4, vo.getAddress() );
+			pstmt.setString(5, vo.getId() );
+			
+			result = pstmt.executeUpdate();
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+		return result;
+	}
 	
 	
 	

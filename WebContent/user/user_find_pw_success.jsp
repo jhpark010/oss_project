@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String id = (String)session.getAttribute("user_id");
+	String nick = (String)session.getAttribute("user_nick");
 	String pw = (String) session.getAttribute("user_pw");
 %>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
 	<h3>비밀번호 찾기 성공!</h3>
 	<table>
 		<tr>
-			<td><%=id%>님의 비밀번호 > </td>
+			<td><%=nick%>님의 비밀번호 > </td>
 			<td><a class="find_box"><%= pw%></a></td>
 		<tr>
 	</table>

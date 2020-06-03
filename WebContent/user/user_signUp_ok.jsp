@@ -26,7 +26,7 @@
 		if(result2==1){%>
 			<script>
 				alert("회원가입을 축하합니다!");
-				location.href="/Webpage/index.jsp";
+				location.href="/Webpage/user/user_login.jsp";
 			</script>
 		<%}else{%>
 			<script>

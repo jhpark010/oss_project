@@ -1,12 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String id = (String) session.getAttribute("user_id");
-	String nick = (String) session.getAttribute("user_nick");
-
-	if (session.getAttribute("user_id") == null) {
-		response.sendRedirect("/Webpage/user/user_login.jsp");
-	}
+	String id = (String)session.getAttribute("user_id");
 %>
 
 <!DOCTYPE html>
@@ -49,18 +44,17 @@
 <%@ include file = "../include/header.jsp" %>
 
 	<section id="user">
-	<!-- <div class="user_container"> -->
-			<h1>Mypage</h1>
-			<p class="caution"><%=id %>(<%=nick %>)님 환영합니다</p>
-				<input type="button" value="홍보건의" onclick="location.href='/Webpage/user/user_ad.jsp'">
-				<input type="button" value="정보수정" onclick="location.href='/Webpage/user/user_modify.jsp'">
-				<input type="button"  value="로그아웃" onclick="location.href='/Webpage/user/user_logout.jsp'">
-				<input type="button" value="회원탈퇴" onclick="location.href='/Webpage/user/user_delete.jsp'">
+		<form action="user_delete_ok.jsp" method="post">
+			<h2>회원탈퇴</h2>
+			<p class="caution"><%=id %>님 정말로 탈퇴하시겠습니까?<br>비밀번호를 입력해주세요.</p>
+				<input type="password" name="pw" placeholder="Enter the password">
+				<input type="submit"  value="확인">
+				<input type="button" value="이전" onclick="location.href='/Webpage/user/user_mypage.jsp'">
 				
 				
 		
 		<!-- </div> -->
-		
+		</form>
 	</section>
 <%@ include file = "../include/footer.jsp" %>
 

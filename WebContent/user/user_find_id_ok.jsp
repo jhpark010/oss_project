@@ -3,7 +3,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	/* UserDAO 생성해서 아이디 찾기 하고 UserVO로 getID하고 해당 값이 NULL이면 alert("경고창 ")출력 후 history.go(-1) */
+	request.setCharacterEncoding("utf-8");
+	
 	String nick = request.getParameter("nick");
 	String email = request.getParameter("email");
 	
