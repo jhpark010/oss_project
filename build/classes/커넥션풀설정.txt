@@ -1,0 +1,11 @@
+<Resource
+    auth="Container"
+    driverClassName = "com.mysql.cj.jdbc.Driver"
+    url = "jdbc:mysql://localhost:3306/webpage?serverTimezone=Asia/Seoul"
+    username = "webpage"
+    password = "webpage"
+    name = "jdbc/mysql"
+    type = "javax.sql.DataSource"
+    maxActive = "300"
+    maxWait = "1000"    
+    />

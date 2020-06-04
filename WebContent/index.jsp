@@ -1066,23 +1066,23 @@
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="ìµì 2ê¸ì ì´ìì ì´ë¦ì ìë ¥ì£¼ì¸ì." />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="이름을 입력하세요." />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="ì¬ë°ë¥¸ ì´ë©ì¼ íìì¼ë¡ ìë ¥í´ì£¼ì¸ì." />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="이메일을 입력하세요." />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:1" data-msg="ìµì 1ê¸ì ì´ìì ì ëª©ì ì ì´ì£¼ì¸ì." />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:1" data-msg="제목을 입력하세요." />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="ë´ì©ì ìë ¥í´ì£¼ì¸ì." placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="내용을 입력하세요." placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">ê³ ê°ì¼í° ì ì</button></div>
+            <div class="text-center"><button type="submit">확인</button></div>
           </form>
         </div>
 
@@ -1101,21 +1101,21 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="/Webpage/lib/jquery/jquery.min.js"></script>
+  <script src="/Webpage/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="/Webpage/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Webpage/lib/easing/easing.min.js"></script>
+  <script src="/Webpage/lib/superfish/hoverIntent.js"></script>
+  <script src="/Webpage/lib/superfish/superfish.min.js"></script>
+  <script src="/Webpage/lib/wow/wow.min.js"></script>
+  <script src="/Webpage/lib/venobox/venobox.min.js"></script>
+  <script src="/Webpage/lib/owlcarousel/owl.carousel.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="/Webpage/contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="/Webpage/js/main.js"></script>
 </body>
 
 </html>
