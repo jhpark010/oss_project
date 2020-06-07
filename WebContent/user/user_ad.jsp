@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>TheEvent - Bootstrap Event Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
@@ -85,41 +85,58 @@
 
         </div>
 
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="AdController" method="post" role="form" class="contactForm" enctype="multipart/form-data">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="이름을 입력하세요." />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="이메일을 입력하세요." />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:1" data-msg="제목을 입력하세요." />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="내용을 입력하세요." placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div>
-            	File <input type="file" name="attachment">
-            </div>
-            <div class="text-center"><button type="submit">확인</button>
-            <button type="button" onclick="location.href='/Webpage/user/user_mypage.jsp'">이전페이지</button>
-            </div>
-            
-          </form>
-        </div>
+		<div>
+				<form action="SendMailAttachServlet" method="post" enctype="multipart/form-data" name="Form">
+					<table  border="0" width="60%" align="center">
+						<tr>
+							<td width="50%">연락받을 이메일</td>
+							<td><input type="text" name="email" size="40"/></td>
+						</tr>
+						<tr>
+							<td>제목</td>
+							<td><input type="text" name="subject" size="40"/></td>
+						</tr>
+						<tr>
+							<td>내용</td>
+							<td><textarea rows="15" cols="41" name="message"></textarea></td>
+						</tr>
+						<tr>
+							<td>첨부파일</td>
+							<td><input type="file" name="file" size="50" /></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+							<button type="button" type="button" onclick="check()">확인</button>
+							<button type="button" onclick="location.href='/Webpage/user/user_mypage.jsp'">이전페이지</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+       
 
       </div>
     </section>
 <%@ include file = "../include/footer.jsp" %>
+
+<script>
+		function check(){
+			if(document.Form.email.value==''){
+				alert("이메일은 필수 입력 항목입니다.");
+				return;
+			}else if(document.Form.subject.value==''){
+				alert("제목은 필수 입력 항목입니다.");
+			}else if(document.Form.message.value==''){
+				alert("내용은 필수 입력 항목입니다.");
+				return;
+			}else if(confirm("회원가입을 완료하시겠습니까?")){
+				document.Form.submit();
+			}
+		}
+	
+	
+</script>
+
 
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 

@@ -1877,49 +1877,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#user_ad .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 
-#user_ad .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#user_ad .form #sendmessage.show,
-#user_ad .form #errormessage.show,
-#user_ad .form .show {
-  display: block;
-}
-
-#user_ad .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#user_ad .form input,
-#user_ad .form textarea {
+#user_ad input[type="text"],#user_ad textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
 }
+#user_ad td{
+	font-weight: bold;
+	color:white;
+}
 
-#user_ad .form button[type="submit"]{
+#user_ad input[type="submit"]{
   background: #f82249;
   border: 0;
   padding: 10px 40px;
@@ -1928,7 +1898,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   cursor: pointer;
 }
-#user_ad .form button[type="button"]{
+#user_ad button[type="button"]{
   background: #009900;
   border: 0;
   padding: 10px 40px;
@@ -1937,9 +1907,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   cursor: pointer;
 }
-#user_ad .form button[type="submit"]:hover{
+#user_ad input[type="submit"]:hover{
   background: #e0072f;
 }
-#user_ad .form button[type="button"]:hover{
+#user_ad button[type="button"]:hover{
   background: #007100;
 }
