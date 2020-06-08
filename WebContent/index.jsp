@@ -58,7 +58,7 @@
     </div>
   </section>
 
-  <main id="main">
+  <!-- <main id="main"> -->
 
     <!--==========================
       About Section
@@ -713,7 +713,7 @@
     <!--==========================
       Gallery Section
     ============================-->
-    <section id="gallery" class="wow fadeInUp">
+ <!--    <section id="gallery" class="wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -723,17 +723,17 @@
       </div>
 
       <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
-        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
-        <a href="img/gallery/game1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/game1.jpg" alt=""></a>
-        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
-        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
-        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
-        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
-        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/1.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/2.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/game1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/game1.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/4.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/5.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/6.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/7.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/8.jpg" alt=""></a>
       </div>
 
-    </section>
+    </section> -->
 
     <!--==========================
       Sponsors Section
@@ -1091,7 +1091,7 @@
 
 <!-- 61번줄 <main id="main"> // 1043번줄</main> 삭제 햇음 -->
 
-</main>
+<!-- </main> -->
 
   <!--==========================
     Footer

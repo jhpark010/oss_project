@@ -62,7 +62,44 @@
 		<!-- </div> -->
 		
 	</section>
+	<section id="gallery">
+
+		<div class="container">
+			<div class="section-header">
+				<p>신작 게임</p>
+			</div>
+		</div>
+
+		<div class="owl-carousel gallery-carousel">
+        <a href="/Webpage/img/gallery/chasing light.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/chasing light.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/cyber punk.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/cyber punk.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/game1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/game1.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/ghost-of-tsushima.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/ghost-of-tsushima.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/minecraft.png" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/minecraft.png" alt=""></a>
+        <a href="/Webpage/img/gallery/valorant.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/valorant.jpg" alt=""></a>
+      </div>
+
+    </section>
 <%@ include file = "../include/footer.jsp" %>
+
+<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="/Webpage/lib/jquery/jquery.min.js"></script>
+  <script src="/Webpage/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="/Webpage/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Webpage/lib/easing/easing.min.js"></script>
+  <script src="/Webpage/lib/superfish/hoverIntent.js"></script>
+  <script src="/Webpage/lib/superfish/superfish.min.js"></script>
+  <script src="/Webpage/lib/wow/wow.min.js"></script>
+  <script src="/Webpage/lib/venobox/venobox.min.js"></script>
+  <script src="/Webpage/lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="/Webpage/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="/Webpage/js/main.js"></script>
 
 </body>
 </html>
