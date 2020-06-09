@@ -14,5 +14,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Users/msi/Desktop/자바/eclipse/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/msi/Desktop/자바/eclipse/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/msi/Desktop/자바/eclipse/standard.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

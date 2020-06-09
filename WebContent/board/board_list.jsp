@@ -1,11 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <%
 	String nick = (String)session.getAttribute("user_nick");
-	if(nick!=null){
-		response.sendRedirect("/Webpage/user/user_mypage.jsp");
-	}
 %>
 
 <!DOCTYPE html>
@@ -43,29 +40,58 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body>
+<body style="margin-top:70px;">
 
 <%@ include file = "../include/header.jsp" %>
 
-	<section id="user">
-	<!-- <div class="user_container"> -->
-		<form action="user_login_ok.jsp" method="post">
-			<h1>Login</h1>
-			<p class="caution">로그인을 통해 모든 홈페이지의 기능을 이용할 수 있습니다.</p>
-				<input type="text" name="id" placeholder="Enter the id">
-				<input type="password" name="pw" placeholder="Enter the password">
-				<input type="submit"  value="Login">
-				<input type="button" value="Sign up" onclick="location.href='/Webpage/user/user_signUp.jsp'"><br>
-				<a href="user_find_id.jsp" onclick="window.open(this.href, '_blank', 'width = 500px, height = 400px, toolbars = no, scrollbars = no'); return false;">아이디를 잃어버리셨나요?</a>
-				<br>
-				<a href="user_find_pw.jsp" onclick="window.open(this.href, '_blank', 'width = 500px, height = 400px, toolbars = no, scrollbars = no'); return false;">비밀번호를 잃어버리셨나요?</a>
-				
+	<div>
+		<h3>sample</h3>
+	</div>
+	<div class="container">
+		<h3>게임 정보 공유 게시판</h3>
+
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>글번호</th>
+					<th>카테고리</th>
+					<th>닉네임</th>
+					<th>제목</th>
+					<th>날짜</th>
+					<th>조회수</th>
+				</tr>
+			</thead>
+			
+			<c:forEach var="vo" items="${board_list }">
+			<tbody>
+				<tr>
+					<td>${vo.num}</td>
+					<td>${vo.category}</td>
+					<td>${vo.writer}</td>
+					<td>
+						<a href="content.board?num=${vo.num}">${vo.title}</a>
+					</td>
+					<td>${vo.regdate}</td>
+					<td>${vo.hit}</td>
+				</tr>
+			</tbody>
+			</c:forEach>
+			<tbody>
+				<tr>
+					<td colspan="6" align="center">
+						<form action="" class="form-inline" >
+						  <div class="form-group">
+							<input type="button" value="글 작성" class="btn btn-default" onclick="location.href='write.board' ">
+						  </div>
+						</form> 
+					</td>
+				</tr>
+			</tbody>
 		
-		</form>
-		
-		<!-- </div> -->
-		
-	</section>
+		</table>
+	</div>
+	
+	
 <%@ include file = "../include/footer.jsp" %>
 
 </body>

@@ -17,9 +17,9 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="/Webpage/index.jsp#about">About</a></li>
           <li><a href="/Webpage/index.jsp#speakers">신작게임</a></li>
-          <li><a href="/Webpage/index.jsp#venue">대회</a></li>
+          <li><a href="/Webpage/index.jsp#schedule">대회</a></li>
           <li><a href="/Webpage/index.jsp#hotels">게임목록</a></li>
-          <li><a href="/Webpage/index.jsp#gallery">게시판</a></li>
+          <li><a href="/Webpage/board/list.board">게시판</a></li>
           <li><a href="/Webpage/index.jsp#faq">자주하는질문</a></li>
           <li><a href="/Webpage/index.jsp#contact">고객센터</a></li>
           <!-- 추후에 삭제할 것!  <li class="buy-tickets"><a href="index.jsp#buy-tickets">Buy Tickets</a></li>-->

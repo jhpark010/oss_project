@@ -1,13 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
 <%
 	String nick = (String)session.getAttribute("user_nick");
-	if(nick!=null){
-		response.sendRedirect("/Webpage/user/user_mypage.jsp");
-	}
-%>
 
+	if(nick==null){%>
+		<script>
+			alert("로그인 후 작성이 가능합니다.");
+			history.go(-1);
+		</script>
+	<%}%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,29 +44,61 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body>
+<body style="margin-top:70px;">
 
 <%@ include file = "../include/header.jsp" %>
 
+<div align="center" class="div_center">
+	<h3>게시판 글 작성 페이지</h3>
+	<hr>
 	<section id="user">
-	<!-- <div class="user_container"> -->
-		<form action="user_login_ok.jsp" method="post">
-			<h1>Login</h1>
-			<p class="caution">로그인을 통해 모든 홈페이지의 기능을 이용할 수 있습니다.</p>
-				<input type="text" name="id" placeholder="Enter the id">
-				<input type="password" name="pw" placeholder="Enter the password">
-				<input type="submit"  value="Login">
-				<input type="button" value="Sign up" onclick="location.href='/Webpage/user/user_signUp.jsp'"><br>
-				<a href="user_find_id.jsp" onclick="window.open(this.href, '_blank', 'width = 500px, height = 400px, toolbars = no, scrollbars = no'); return false;">아이디를 잃어버리셨나요?</a>
-				<br>
-				<a href="user_find_pw.jsp" onclick="window.open(this.href, '_blank', 'width = 500px, height = 400px, toolbars = no, scrollbars = no'); return false;">비밀번호를 잃어버리셨나요?</a>
-				
-		
-		</form>
-		
-		<!-- </div> -->
-		
+	<form action="regist.board" method="post">
+		<table border="1" width="500">
+			<tr>
+				<td>닉네임</td>
+				<td>
+					<input type="text" name="writer" value="<%=nick%>" readonly>
+				</td>
+			</tr>
+			<tr>
+				<td>카테고리</td>
+				<td>
+					<select name="category">
+						<option value="free">자유</option>
+						<option value="rts">RTS</option>
+						<option value="sports">스포츠</option>
+						<option value="fps">FPS</option>
+						<option value="rpg">RPG</option>
+						<option value="rts">RTS</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>글 제목</td>
+				<td>
+					<input type="text" name="title" >
+				</td>
+			</tr>
+			<tr>
+				<td>글 내용</td>
+				<td>
+					<textarea rows="10" style="width: 95%;" name="content"></textarea>
+					<!-- background:#101522 // color: white -->
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="작성 완료">
+					&nbsp;&nbsp;
+					<input type="button" value="목록" onclick="location.href='list.board' ">         
+				</td>
+			</tr>
+			
+		</table>
+	</form>
 	</section>
+</div>
+	
 <%@ include file = "../include/footer.jsp" %>
 
 </body>
