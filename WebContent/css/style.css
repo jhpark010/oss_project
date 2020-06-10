@@ -1916,3 +1916,41 @@ body.mobile-nav-active #mobile-nav-toggle {
 #user_ad button[type="button"]:hover{
   background: #007100;
 }
+
+#board{
+	text-align: center;
+	margin-top: 70px;
+	padding: 100px 0 0px 0;
+	background: #101522;
+	vertical-align: middle;
+	color : white;
+	font-weight : bold;
+}
+#board h2{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#board table{
+	table-layout : fixed;
+	word-break : break-all;
+	width : 100%;
+	height : auto;
+	margin : auto;
+}
+.board_text{
+	font-size : 20px;
+	color : #e2f400;
+}
+#board input[type="button"]{
+  background: #009900;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#board input[type="button"]:hover{
+  background: #007100;
+}

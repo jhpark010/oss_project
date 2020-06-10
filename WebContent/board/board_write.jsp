@@ -1,14 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%
-	String nick = (String)session.getAttribute("user_nick");
 
-	if(nick==null){%>
-		<script>
-			alert("로그인 후 작성이 가능합니다.");
-			history.go(-1);
-		</script>
-	<%}%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,6 +38,16 @@
 </head>
 <body style="margin-top:70px;">
 
+<%
+	String nick = (String)session.getAttribute("user_nick");
+
+	if(nick==null){%>
+		<script>
+			alert("로그인 후 작성이 가능합니다.");
+			location.href='/Webpage/user/user_login.jsp'
+		</script>
+<%}%>
+
 <%@ include file = "../include/header.jsp" %>
 
 <div align="center" class="div_center">
@@ -64,12 +66,12 @@
 				<td>카테고리</td>
 				<td>
 					<select name="category">
-						<option value="free">자유</option>
-						<option value="rts">RTS</option>
-						<option value="sports">스포츠</option>
-						<option value="fps">FPS</option>
-						<option value="rpg">RPG</option>
-						<option value="rts">RTS</option>
+						<option value="자유">자유</option>
+						<option value="RTS">RTS</option>
+						<option value="스포츠">스포츠</option>
+						<option value="FPS">FPS</option>
+						<option value="RPG">RPG</option>
+						<option value="RTS">RTS</option>
 					</select>
 				</td>
 			</tr>

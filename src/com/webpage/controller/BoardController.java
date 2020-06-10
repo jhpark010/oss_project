@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.webpage.board.service.ContentServiceImpl;
 import com.webpage.board.service.GetListServiceImpl;
 import com.webpage.board.service.IBoardService;
 import com.webpage.board.service.RegistServiceImpl;
@@ -66,6 +67,15 @@ public class BoardController extends HttpServlet {
 			sv.execute(request, response);
 			
 			response.sendRedirect("list.board");
+			
+		}else if(command.equals("/board/content.board")) {
+			
+			sv = new ContentServiceImpl();
+			sv.execute(request, response);
+			
+			RequestDispatcher dp = request.getRequestDispatcher("board_content.jsp");
+			dp.forward(request, response);
+			
 		}
 		
 	}

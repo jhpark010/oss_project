@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
+<%
+	String nick = (String)session.getAttribute("user_nick");
+%>
 
 <!DOCTYPE html>
 <html>
@@ -37,55 +40,51 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body style="margin-top:140px;">
+<body style="margin-top:70px;">
 
 <%@ include file = "../include/header.jsp" %>
-
+<section id="board">
 	<div class="container">
-		<h3>게임 정보 공유 게시판</h3>
 
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<!-- <th>글번호</th> -->
-					<th>카테고리</th>
-					<th>닉네임</th>
-					<th>제목</th>
-					<th>날짜</th>
-					<th>조회수</th>
-				</tr>
-			</thead>
+		<h2>게시글 내용</h2>
+	<hr>
+	<table border="1">
+		<tr>
+
+			<td>글제목</td>
+			<td class="board_text" colspan="5">${board_content.title}</td>
+		</tr>
+		<tr>
+			<td>카테고리</td>
+			<td colspan="5">${board_content.category}</td>
+		<tr>	
+			<td>작성자</td>
+			<td class="board_text">${board_content.writer}</td>
 			
-			<c:forEach var="vo" items="${board_list }">
-			<tbody>
-				<tr>
-					<td>${vo.category}</td>
-					<td>${vo.writer}</td>
-					<td>
-						<a href="content.board?num=${vo.num}">${vo.title}</a>
-					</td>
-					<td>${vo.regdate}</td>
-					<td>${vo.hit}</td>
-				</tr>
-			</tbody>
-			</c:forEach>
-			<tbody>
-				<tr>
-					<td colspan="5" align="center">
-						<form action="" class="form-inline" >
-						  <div class="form-group">
-							<input type="button" value="글 작성" class="btn btn-default" onclick="location.href='write.board' ">
-						  </div>
-						</form> 
-					</td>
-				</tr>
-			</tbody>
-		
-		</table>
+			<td>조회수</td>
+			<td>${board_content.hit}</td>
+			
+			<td>작성일</td>
+			<td>${board_content.regdate}</td>
+		</tr>
+		<tr>
+			<td>글내용</td>
+			<td colspan="5" height="300px" width="700px">${board_content.content}</td>
+		</tr>
+		<tr>
+			<td colspan="6" align="center">
+				<input type="button" value="목록" onclick="location.href='list.board'">&nbsp;&nbsp;
+<%				String writer = (String)request.getAttribute("board_writer");
+				if(nick.equals(writer)){%>
+					<input type="button" value="수정" onclick="location.href='modify.board?num=${board_content.num}' " >&nbsp;&nbsp;
+					<input type="button" value="삭제" onclick="location.href='delete.board?num=${board_content.num}' ">&nbsp;&nbsp;
+				 <%}%>
+			</td>
+		</tr>
+	</table>
 	</div>
-	
+</section>	
 
-	
 	
 <%@ include file = "../include/footer.jsp" %>
 

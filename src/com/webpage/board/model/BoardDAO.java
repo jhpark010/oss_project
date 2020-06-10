@@ -97,6 +97,38 @@ public class BoardDAO {
 		return list;
 	}
 	
+	public BoardVO getContent(String num) {
+		BoardVO vo = new BoardVO();
+		
+		String sql = "select * from board where num = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1,num);
+			
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+				vo.setNum(rs.getInt("num"));
+				vo.setCategory(rs.getString("category"));
+				vo.setTitle(rs.getString("title"));
+				vo.setContent(rs.getString("content"));
+				vo.setWriter(rs.getString("writer"));
+				vo.setRegdate(rs.getTimestamp("regdate"));
+				vo.setHit(rs.getInt("hit"));
+			}
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+		return vo;
+	}
+	
 	
 	
 	
