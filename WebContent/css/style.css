@@ -1951,6 +1951,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   cursor: pointer;
 }
+#board input[type="submit"]{
+  background: #f82249;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
 #board input[type="button"]:hover{
   background: #007100;
+}
+#board input[type="submit"]:hover{
+  background: #e0072f;
 }

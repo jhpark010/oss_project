@@ -129,7 +129,47 @@ public class BoardDAO {
 		return vo;
 	}
 	
+	public void update(String num,String category, String content) {
+		
+		String sql = "update board set category=?, content=? where num = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, category);
+			pstmt.setString(2, content);
+			pstmt.setString(3, num);
+			
+			pstmt.executeUpdate();
+			
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+	}
 	
+	public void delete(String num) {
+		
+		String sql = "delete from board where num = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, num);
+			
+			pstmt.executeUpdate();
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+	}
 	
 	
 	

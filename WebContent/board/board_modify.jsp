@@ -42,56 +42,57 @@
 </head>
 <body style="margin-top:70px;">
 
-<% %>
-
 <%@ include file = "../include/header.jsp" %>
 <section id="board">
 	<div class="container">
 
-		<h2>게시글 내용</h2>
+		<h2>게시글 수정</h2>
 	<hr>
+	<form action="update.board" method="post">
 	<table border="1">
+		<tr>
+			<td>
+				<input style="display:none" type="text" name="num" value="${board_content.num }">
+				<!-- 수정을 위해서는 num의 값(게시물 마다의 고유한 번호)가 필요해서 해당 input태그는 숨김처리한다. -->
+			</td>
+		</tr>
 		<tr>
 
 			<td>글제목</td>
-			<td class="board_text" colspan="5">${board_content.title}</td>
+			<td class="board_text" colspan="5">
+			<input type="text" name=title value="${board_content.title}" readonly>
+			</td>
 		</tr>
 		<tr>
 			<td>카테고리</td>
-			<td colspan="5">${board_content.category}</td>
+			<td colspan="5">
+				<select name="category">
+						<option value="자유">자유</option>
+						<option value="RTS">RTS</option>
+						<option value="스포츠">스포츠</option>
+						<option value="FPS">FPS</option>
+						<option value="RPG">RPG</option>
+						<option value="RTS">RTS</option>
+				</select>
+			</td>
 		<tr>	
 			<td>작성자</td>
-			<td class="board_text">${board_content.writer}</td>
-			
-			<td>조회수</td>
-			<td>${board_content.hit}</td>
-			
-			<td>작성일</td>
-			<td>${board_content.regdate}</td>
+			<td class="board_text"><input type="text" name=writer value="${board_content.writer}" readonly></td>
 		</tr>
 		<tr>
 			<td>글내용</td>
-			<td colspan="5" height="300px" width="700px">${board_content.content}</td>
+			<td colspan="5" height="300px" width="700px">
+			<textarea rows="10" style="width: 95%; height : 295px;" name="content">${board_content.content}</textarea>
+			</td>
 		</tr>
 		<tr>
 			<td colspan="6" align="center">
-			
-<%				
-			if(nick==null){%>
-				<input type="button" value="목록" onclick="location.href='list.board'">&nbsp;&nbsp;
-			<%}else{
-				if(nick.equals(request.getAttribute("board_writer"))){%>
-					<input type="button" value="목록" onclick="location.href='list.board'">&nbsp;&nbsp;
-					<input type="button" value="수정" onclick="location.href='modify.board?num=${board_content.num}' " >&nbsp;&nbsp;
-					<input type="button" value="삭제" onclick="location.href='delete.board?num=${board_content.num}' ">&nbsp;&nbsp;
-				 <%}else{%>
-				 	<input type="button" value="목록" onclick="location.href='list.board'">&nbsp;&nbsp;
-<%					} 
-				 }
-%>
+			<input type="submit" value="수정">&nbsp;&nbsp;
+			<input type="button" value="이전" onclick="location.href='content.board?num=${board_content.num}' ">
 			</td>
 		</tr>
 	</table>
+	</form>
 	</div>
 </section>	
 

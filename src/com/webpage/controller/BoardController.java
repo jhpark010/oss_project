@@ -10,9 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.webpage.board.service.ContentServiceImpl;
+import com.webpage.board.service.DeleteServiceImpl;
 import com.webpage.board.service.GetListServiceImpl;
 import com.webpage.board.service.IBoardService;
 import com.webpage.board.service.RegistServiceImpl;
+import com.webpage.board.service.UpdateServiceImpl;
 
 /**
  * Servlet implementation class BoardController
@@ -76,6 +78,27 @@ public class BoardController extends HttpServlet {
 			RequestDispatcher dp = request.getRequestDispatcher("board_content.jsp");
 			dp.forward(request, response);
 			
+		}else if(command.equals("/board/modify.board")) {
+			
+			sv = new ContentServiceImpl();
+			sv.execute(request, response);
+			
+			RequestDispatcher dp = request.getRequestDispatcher("board_modify.jsp");
+			dp.forward(request, response);
+			
+		}else if(command.equals("/board/update.board")) {
+			
+			sv = new UpdateServiceImpl();
+			sv.execute(request, response);
+			
+			response.sendRedirect("/Webpage/board/board_modify_success.jsp");
+			
+		}else if(command.equals("/board/delete.board")) {
+			
+			sv = new DeleteServiceImpl();
+			sv.execute(request, response);
+			
+			response.sendRedirect("/Webpage/board/board_delete_success.jsp");
 		}
 		
 	}

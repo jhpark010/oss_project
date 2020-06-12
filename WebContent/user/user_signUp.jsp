@@ -76,7 +76,7 @@
 					</tr>
 				</table>
 				<br>
-				<input type="button" value="확인" onclick="check()">
+				<input type="button" value="확인" onclick="check()">&nbsp;&nbsp;
 				<input type="button" value="취소" onclick="location.href='/Webpage/user/user_login.jsp'">
 				
 	

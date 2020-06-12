@@ -63,7 +63,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>주소</address>
+              <address>서울특별시 강남구 ***</address>
             </div>
           </div>
 
@@ -71,7 +71,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">02-2222-2222</a></p>
+              <p><a href="tel:+12345678">02-1234-5678</a></p>
             </div>
           </div>
 
@@ -79,7 +79,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@example.com">sample@sample.com</a></p>
             </div>
           </div>
 
