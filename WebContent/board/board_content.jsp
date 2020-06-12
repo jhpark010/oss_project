@@ -3,6 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <%
 	String nick = (String)session.getAttribute("user_nick");
+	request.getSession().setAttribute("c_Nick", nick);
 %>
 
 <!DOCTYPE html>
@@ -75,7 +76,6 @@
 		</tr>
 		<tr>
 			<td colspan="6" align="center">
-			
 <%				
 			if(nick==null){%>
 				<input type="button" value="목록" onclick="location.href='list.board'">&nbsp;&nbsp;
@@ -92,6 +92,44 @@
 			</td>
 		</tr>
 	</table>
+	</div>
+	
+	<!-- 댓글 영역 -->
+	
+	<div class="comment">
+		<table id=comment border="1" bordercolor="lightgray">
+			<c:forEach var="comment" items="${comment_list}">
+        	<tbody>
+            <tr>
+                
+                <td width="80">
+                    <div>
+                        ${comment.nick}<br>
+                        <font size="2" color="lightgray">${comment.date}</font>
+                    </div>
+                </td>
+                
+                <td width="400">
+                    <div class="text_wrapper">
+                        ${comment.content}
+                    </div>
+                </td>
+                
+                <td width="80">
+                    <div id="btn" style="text-align:center;">
+                        <a href="#">[답변]</a><br>
+                    
+                    <c:if test="${comment.nick == sessionScope.c_Nick}">
+                        <a href="#">[수정]</a><br>    
+                        <a href="#">[삭제]</a>
+                    </c:if>        
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            </c:forEach>
+
+		</table>
 	</div>
 </section>	
 

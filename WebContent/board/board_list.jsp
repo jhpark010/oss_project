@@ -56,7 +56,7 @@
 				</tr>
 			</thead>
 			
-			<c:forEach var="vo" items="${board_list }">
+			<c:forEach var="vo" items="${board_list}">
 			<tbody>
 				<tr>
 					<td>${vo.category}</td>

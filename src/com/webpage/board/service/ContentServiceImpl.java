@@ -1,9 +1,13 @@
 package com.webpage.board.service;
 
+import java.util.ArrayList;
+
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.webpage.board.comment.model.BoardCommentDAO;
+import com.webpage.board.comment.model.BoardCommentVO;
 import com.webpage.board.model.BoardDAO;
 import com.webpage.board.model.BoardVO;
 
@@ -14,6 +18,8 @@ public class ContentServiceImpl implements IBoardService{
 		
 		String num = request.getParameter("num");
 		BoardDAO dao = BoardDAO.getInstance();
+		BoardCommentDAO bcDao = BoardCommentDAO.getInstance();
+		ArrayList<BoardCommentVO> cList = bcDao.getList(num);
 		
 		Cookie[] arr = request.getCookies();
 		String check = "";
@@ -33,12 +39,19 @@ public class ContentServiceImpl implements IBoardService{
 
 		}
 		
+		System.out.println("게시물 번호: "+num);
 		
 		//게시글 정보를 가져오는 메서드
 		BoardVO vo = dao.getContent(num);
-		request.setAttribute("board_writer", vo.getWriter());
 		//화면으로 전달하기 위해 board_content 이름으로 강제 저장
 		request.setAttribute("board_content", vo);
+		request.setAttribute("board_writer", vo.getWriter());
+		
+		//해당 게시물의 댓글 정보를 가져오는 메서드
+		request.setAttribute("comment_list", cList);
+		
+
+		
 		
 		
 	}

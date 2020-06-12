@@ -1966,3 +1966,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #board input[type="submit"]:hover{
   background: #e0072f;
 }
+
+.comment{
+	table-layout: fixed;
+    word-break: break-all;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+}

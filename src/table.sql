@@ -16,3 +16,12 @@ create table board (
     regdate datetime default current_timestamp,
     hit int(4) default 0
 );
+create table board_comment(
+	comment_num int(4) auto_increment not null,
+    comment_board int(4) not null,
+    comment_id varchar(50),
+    comment_content varchar(2000) not null,
+    comment_date datetime default current_timestamp,
+    primary key (comment_num),
+    foreign key (comment_board) references board(num)
+);

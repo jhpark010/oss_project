@@ -54,7 +54,6 @@ public class BoardController extends HttpServlet {
 			sv = new GetListServiceImpl();
 			sv.execute(request, response);
 			
-			
 			//화면에 값을 전달하기 위해 포워드 한다.
 			RequestDispatcher dp = request.getRequestDispatcher("board_list.jsp");
 			dp.forward(request, response);
