@@ -53,7 +53,7 @@
 		<tr>
 			<td>
 				<input style="display:none" type="text" name="num" value="${board_content.num }">
-				<!-- 수정을 위해서는 num의 값(게시물 마다의 고유한 번호)가 필요해서 해당 input태그는 숨김처리한다. -->
+				<!-- 수정을 위해서는 num의 값(게시물 마다의 고유한 번호)이 필요해서 해당 input태그는 숨김처리한다. -->
 			</td>
 		</tr>
 		<tr>

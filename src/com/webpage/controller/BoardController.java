@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.webpage.board.service.CommentDeleteServiceImpl;
+import com.webpage.board.service.CommentModifyServiceImpl;
+import com.webpage.board.service.CommentServiceImpl;
+import com.webpage.board.service.CommentUpdateServiceImpl;
 import com.webpage.board.service.ContentServiceImpl;
 import com.webpage.board.service.DeleteServiceImpl;
 import com.webpage.board.service.GetListServiceImpl;
@@ -98,6 +102,35 @@ public class BoardController extends HttpServlet {
 			sv.execute(request, response);
 			
 			response.sendRedirect("/Webpage/board/board_delete_success.jsp");
+		}else if(command.equals("/board/comment.board")) {
+			
+			sv = new CommentServiceImpl();
+			sv.execute(request, response);
+			
+			response.sendRedirect("/Webpage/board/board_comment_ok.jsp");
+			
+		}else if(command.equals("/board/comment_modify.board")) {
+			
+			sv = new CommentModifyServiceImpl();
+			sv.execute(request, response);
+			
+			RequestDispatcher dp = request.getRequestDispatcher("board_comment_modify.jsp");
+			dp.forward(request, response);
+			
+		}else if(command.equals("/board/comment_update.board")) {
+			
+			sv = new CommentUpdateServiceImpl();
+			sv.execute(request, response);
+			
+			response.sendRedirect("/Webpage/board/board_comment_popUp_close.jsp");
+			
+		}else if(command.equals("/board/comment_delete.board")) {
+			
+			sv = new CommentDeleteServiceImpl();
+			sv.execute(request, response);
+			
+			response.sendRedirect("/Webpage/board/board_comment_delete_ok.jsp");
+			
 		}
 		
 	}

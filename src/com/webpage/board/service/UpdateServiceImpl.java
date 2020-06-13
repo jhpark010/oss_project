@@ -15,9 +15,6 @@ public class UpdateServiceImpl implements IBoardService{
 		String category = request.getParameter("category");
 		String content = request.getParameter("content");
 		
-		System.out.println("num의 값 : "+num);
-		System.out.println(category);
-		
 		BoardDAO dao = BoardDAO.getInstance();
 		dao.update(num, category, content);
 		

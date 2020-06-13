@@ -70,4 +70,100 @@ public class BoardCommentDAO {
 
 		return list;
 	}
+	
+	public void comment_regist(int board_num, String comment_id, String content) {
+		
+		String sql = "insert into board_comment(comment_board,comment_id,comment_content) values(?,?,?)";
+		
+		try {
+			System.out.println("디비 시작");
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, board_num);
+			pstmt.setString(2, comment_id);
+			pstmt.setString(3, content);
+			
+			System.out.println("업데이트 전");
+			
+			pstmt.executeUpdate();
+			
+			System.out.println("업데이트 후");
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		System.out.println("디비 끝냄");
+	}
+	
+	public BoardCommentVO getComment(int comment_num) {
+		BoardCommentVO vo = new BoardCommentVO();
+		
+		String sql = "select * from board_comment where comment_num=?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, comment_num);
+			
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+				vo.setNum(rs.getInt("comment_num"));
+				vo.setBoard_num(rs.getInt("comment_board"));
+				vo.setNick(rs.getString("comment_id"));
+				vo.setContent(rs.getString("comment_content"));
+				vo.setDate(rs.getTimestamp("comment_date"));
+			}
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+		return vo;
+	}
+	
+	public void comment_update(int comment_num,String comment_content) {
+		
+		String sql = "update board_comment set comment_content=? where comment_num = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, comment_content);
+			pstmt.setInt(2, comment_num);
+			
+			pstmt.executeUpdate();
+			
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+	}
+	
+	public void comment_delete(int comment_num) {
+		
+		String sql = "delete from board_comment where comment_num = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, comment_num);
+			
+			pstmt.executeUpdate();
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+	}
 }

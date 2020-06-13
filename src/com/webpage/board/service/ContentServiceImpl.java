@@ -15,11 +15,13 @@ public class ContentServiceImpl implements IBoardService{
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
+	
 		
 		String num = request.getParameter("num");
 		BoardDAO dao = BoardDAO.getInstance();
 		BoardCommentDAO bcDao = BoardCommentDAO.getInstance();
 		ArrayList<BoardCommentVO> cList = bcDao.getList(num);
+		
 		
 		Cookie[] arr = request.getCookies();
 		String check = "";
@@ -49,6 +51,9 @@ public class ContentServiceImpl implements IBoardService{
 		
 		//해당 게시물의 댓글 정보를 가져오는 메서드
 		request.setAttribute("comment_list", cList);
+		
+		//해당 게시물의 번호를 알아야 하기 때문에
+		request.setAttribute("board_num", vo.getNum());
 		
 
 		
