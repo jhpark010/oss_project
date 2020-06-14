@@ -241,101 +241,70 @@
     <section id="schedule" class="section-with-bg">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <h2>대회 일정</h2>
+          <p>원하는 월을 선택해서 해당하는 게임 대회의 정보를 볼 수 있습니다.</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+            <a class="nav-link active" href="#month-1" role="tab" data-toggle="tab">6월</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+            <a class="nav-link" href="#month-2" role="tab" data-toggle="tab">7월</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+            <a class="nav-link" href="#month-3" role="tab" data-toggle="tab">8월</a>
           </li>
         </ul>
 
-        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        <h3 class="sub-heading">현재 코로나19로 인해 대회 측의 일정이 변경될 수 있으니 언제나 해당 대회의 홈페이지를 방문하여 자세한 사항을 확인하시기 바랍니다.</h3>
 
         <div class="tab-content row justify-content-center">
 
           <!-- Schdule Day 1 -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="month-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-2">6월 22일</div>
               <div class="col-md-10">
-                <h4>Registration</h4>
-                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+              	<div class="speaker">
+                  <img src="img/schedule/tekken.jpg" alt="tekken">
+                </div>
+                <h4>제 12회 TEKKENCREW RAGECRUSH <span>철권 7</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : 네이버카페 TEKKEN CREW<a href="https://battle.dog/c/nl36jxf4x"> (자세한 사항)</a></p>
+              </div>
+            </div>
+            
+            <div class="row schedule-item">
+              <div class="col-md-2">6월 24일</div>
+              <div class="col-md-10">
+              	<div class="speaker">
+                  <img src="img/schedule/atl.jpg" alt="tekken">
+                </div>
+                <h4>2020 ATL S1 DAY3(2020아프리카TV 철권 리스 시즌1) <span>철권 7</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : ATL(아프리카TV TEKKEN 리그 공식방송국) <a href="https://battle.dog/c/2020ATLS1DAY3"> (자세한 사항)</a></p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2">6월 27일</div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
+              	<div class="speaker">
+                  <img src="img/schedule/valorant.jpg" alt="valorant">
                 </div>
-                <h4>Keynote <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                <h4>썸머배 발로란트 대회 <span>발로란트</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : 핫 썸머<a href="https://battle.dog/c/mvp33i6vz"> (자세한 사항)</a></p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2">6월 27일</div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+              	<div class="speaker">
+                  <img src="img/schedule/bg.png" alt="battlegrounds">
                 </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                <h4>이 집 밖은 위험해 시즌2(못해도 괜찮은 솔로대회) <span>배틀그라운드</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : 요요래빗(트위치) <a href="https://battle.dog/c/outsidethishouse">(자세한 사항)</a></p>
               </div>
             </div>
 
@@ -343,71 +312,49 @@
           <!-- End Schdule Day 1 -->
 
           <!-- Schdule Day 2 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="month-2">
 
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+           <div class="row schedule-item">
+              <div class="col-md-2">7월 1일</div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
+              	<div class="speaker">
+                  <img src="img/schedule/atl.jpg" alt="battlegrounds">
                 </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
+                <h4>2020 ATL S1 DAY4(2020아프리카TV 철권 리스 시즌1) <span>철권 7</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : ATL(아프리카TV TEKKEN 리그 공식방송국) <a href="https://battle.dog/c/2020ATLS1DAY4"> (자세한 사항)</a></p>
+              </div>
+            </div>
+
+           <div class="row schedule-item">
+              <div class="col-md-2">7월 8일</div>
+              <div class="col-md-10">
+              	<div class="speaker">
+                  <img src="img/schedule/atl.jpg" alt="tekken">
+                </div>
+                <h4>2020 ATL S1 DAY5(2020아프리카TV 철권 리스 시즌1) <span>철권 7</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : ATL(아프리카TV TEKKEN 리그 공식방송국) <a href="https://battle.dog/c/2020ATLS1DAY5"> (자세한 사항)</a></p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-2">7월 15일</div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+              	<div class="speaker">
+                  <img src="img/schedule/atl.jpg" alt="tekken">
                 </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+                <h4>2020 ATL S1 DAY6(2020아프리카TV 철권 리스 시즌1) <span>철권 7</span></h4>
+                <p>대회형식 : 개인전-온라인 <br>주최 : ATL(아프리카TV TEKKEN 리그 공식방송국) <a href="https://battle.dog/c/2020ATLS1DAY6"> (자세한 사항)</a></p>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-2">7월 18일</div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
+              	<div class="speaker">
+                  <img src="img/schedule/kr.png" alt="kartrider">
                 </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                <h4>DAESIN X SHIELDS 2020 무한부스터 리그 시즌1 <span>카트라이더</span></h4>
+                <p>대회형식 : 단체전-온라인 <br>주관 및 주회 : 대신(주), Shields (카트라이더 정규 클럽) <a href="https://battle.dog/c/dsxshields1team"> (자세한 사항)</a></p>
               </div>
             </div>
 
@@ -415,180 +362,20 @@
           <!-- End Schdule Day 2 -->
 
           <!-- Schdule Day 3 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="month-3">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-2"></div>
               <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
-                </div>
-                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
-                </div>
-                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
-                </div>
-                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                <p>Facere provident incidunt quos voluptas.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>02:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
-                </div>
-                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>03:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
-                </div>
-                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>04:00 PM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
-                </div>
-                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+                <h4>아직 예정된 대회가 없습니다.</h4>
+                <p>대회 홍보관련 문의는 로그인 후 가능합니다.<a href="/Webpage/user/user_ad.jsp"> (홍보링크)</a></p>
               </div>
             </div>
 
           </div>
-          <!-- End Schdule Day 2 -->
 
         </div>
 
-      </div>
-
-    </section>
-
-    <!--==========================
-      Venue Section
-    ============================-->
-    <section id="venue" class="wow fadeInUp">
-
-      <div class="container-fluid">
-
-        <div class="section-header">
-          <h2>개발자소개(ex.Venue)</h2>
-          <p>수정해야함,수정해야함,수정해야함</p>
-        </div>
-
-        <div class="row no-gutters">
-          <div class="col-lg-6 venue-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1586.7527812129358!2d127.08336938284525!3d37.306850566375196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5a4d6bce3d83%3A0x28a3fe90eae45de7!2z7JuQ7Z2s7LqQ7Iqs7ZSE65287J6QQQ!5e0!3m2!1sko!2skr!4v1587798990709!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-
-          <div class="col-lg-6 venue-info">
-            <div class="row justify-content-center">
-              <div class="col-11 col-lg-8">
-                <h3>제목 입력란</h3>
-                <p>소개 입력란</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="../img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="../img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
       </div>
 
     </section>
@@ -596,22 +383,22 @@
     <!--==========================
       Hotels Section
     ============================-->
-    <section id="hotels" class="section-with-bg wow fadeInUp">
+    <section id="games" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
+          <h2>게임목록</h2>
+          <p>원하는 게임을 클릭하시면 게임 소개 페이지로 이동됩니다.</p>
         </div>
 
         <div class="row">
         
           <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/lol.jpg" alt="LeagueofLegends" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
+              <h3><a href="#">League of Legends</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -619,65 +406,15 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
               </div>
-              <p>0.4 Mile from the Venue</p>
+              <p style="font-weight:bold;">#리그오브레전드 #롤 #AOS</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/bg.jpg" alt="BattleGround" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-          
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 2</a></h3>
+              <h3><a href="#">Battle Grounds</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -685,23 +422,74 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-full"></i>
               </div>
-              <p>0.5 Mile from the Venue</p>
+              <p style="font-weight:bold;">#배틀그라운드 #배그 #배틀로얄</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/overwatch.jpg" alt="overwatch" class="img-fluid">
+              </div>
+              <h3><a href="#">OverWatch</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p style="font-weight:bold;">#오버워치 #옵치 #FPS</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/fifa.png" alt="FIFA online4" class="img-fluid">
+              </div>
+              <h3><a href="#">FIFA online 4</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full"></i>
+              </div>
+              <p style="font-weight:bold;">#피파온라인4 #피파 #스포츠</p>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-4 col-md-6">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/df.jpg" alt="dungeon and fighter" class="img-fluid">
+              </div>
+              <h3><a href="#">Dungeon and Fighter</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full"></i>
+              </div>
+              <p style="font-weight:bold;">#던전앤파이터 #던파 #RPG</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+            <div class="games">
+              <div class="games-img">
+                <img src="img/games/sa.jpg" alt="Sudden Attack" class="img-fluid">
               </div>
-              <h3><a href="#">Hotel 3</a></h3>
+              <h3><a href="#">Sudden Attack</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
               </div>
-              <p>0.6 Mile from the Venue</p>
+              <p style="font-weight:bold;">#서든어택 #서든 #FPS</p>
             </div>
           </div>
 
@@ -710,96 +498,6 @@
 
     </section>
 
-    <!--==========================
-      Gallery Section
-    ============================-->
- <!--    <section id="gallery" class="wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>New games</h2>
-          <p>신작 게임</p>
-        </div>
-      </div>
-
-      <div class="owl-carousel gallery-carousel">
-        <a href="/Webpage/img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/1.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/2.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/game1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/game1.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/4.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/5.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/6.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/7.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/8.jpg" alt=""></a>
-      </div>
-
-    </section> -->
-
-    <!--==========================
-      Sponsors Section
-    ============================-->
-    <section id="supporters" class="section-with-bg wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Sponsors</h2>
-        </div>
-
-        <div class="row no-gutters supporters-wrap clearfix">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
 
     <!--==========================
       F.A.Q Section
@@ -900,124 +598,6 @@
         </form>
 
       </div>
-    </section>
-
-    <!--==========================
-      Buy Ticket Section
-    ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Buy Tickets</h2>
-          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">$150</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">$250</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Pro Tier -->
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Modal Order Form -->
-      <div id="buy-ticket-modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <select id="ticket-type" name="ticket-type" class="form-control" >
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
-                </div>
-              </form>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-
     </section>
 
     <!--==========================

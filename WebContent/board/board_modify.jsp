@@ -52,7 +52,7 @@
 	<table border="1">
 		<tr>
 			<td>
-				<input style="display:none" type="text" name="num" value="${board_content.num }">
+				<input style="display:none" name="num" value="${board_content.num }">
 				<!-- 수정을 위해서는 num의 값(게시물 마다의 고유한 번호)이 필요해서 해당 input태그는 숨김처리한다. -->
 			</td>
 		</tr>
@@ -60,7 +60,7 @@
 
 			<td>글제목</td>
 			<td class="board_text" colspan="5">
-			<input type="text" name=title value="${board_content.title}" readonly>
+			<a>${board_content.title}</a>
 			</td>
 		</tr>
 		<tr>
@@ -77,12 +77,14 @@
 			</td>
 		<tr>	
 			<td>작성자</td>
-			<td class="board_text"><input type="text" name=writer value="${board_content.writer}" readonly></td>
+			<td class="board_text" colspan="5">
+			<a style="background:#101522">${board_content.writer}</a>
+			</td>
 		</tr>
 		<tr>
 			<td>글내용</td>
 			<td colspan="5" height="300px" width="700px">
-			<textarea rows="10" style="width: 95%; height : 295px;" name="content">${board_content.content}</textarea>
+			<textarea class="board_textarea" rows="10" style="width: 95%; height : 295px;" name="content">${board_content.content}</textarea>
 			</td>
 		</tr>
 		<tr>

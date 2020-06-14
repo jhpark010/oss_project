@@ -50,12 +50,12 @@
 
 <%@ include file = "../include/header.jsp" %>
 
-<div align="center" class="div_center">
+<%-- <div id="board">
 	<h3>게시판 글 작성 페이지</h3>
 	<hr>
-	<section id="user">
+	<section>
 	<form action="regist.board" method="post">
-		<table border="1" width="500">
+		<table border="1">
 			<tr>
 				<td>닉네임</td>
 				<td>
@@ -77,14 +77,14 @@
 			</tr>
 			<tr>
 				<td>글 제목</td>
-				<td>
+				<td class="board_text" colspan="5">
 					<input type="text" name="title" >
 				</td>
 			</tr>
 			<tr>
 				<td>글 내용</td>
 				<td>
-					<textarea rows="10" style="width: 95%;" name="content"></textarea>
+					<textarea class="board_textarea" rows="10" style="width: 95%; height : 295px;" name="content"></textarea>
 					<!-- background:#101522 // color: white -->
 				</td>
 			</tr>
@@ -99,8 +99,54 @@
 		</table>
 	</form>
 	</section>
-</div>
-	
+</div> --%>
+<section id="board">
+	<div class="container">
+
+		<h2>게시글 작성</h2>
+	<hr>
+	<form action="regist.board" method="post">
+		<table border="1">
+		<tr>
+			<td>글제목</td>
+			<td class="board_text" colspan="5">
+			<input type="text" name="title" placeholder="제목을 입력하세요" style="background:#101522; color:white; font-weight:bold;">
+			</td>
+		</tr>
+		<tr>
+			<td>카테고리</td>
+			<td colspan="5">
+				<select name="category">
+						<option value="자유">자유</option>
+						<option value="RTS">RTS</option>
+						<option value="스포츠">스포츠</option>
+						<option value="FPS">FPS</option>
+						<option value="RPG">RPG</option>
+						<option value="RTS">RTS</option>
+				</select>
+			</td>
+		<tr>	
+			<td>닉네임</td>
+			<td class="board_text" colspan="5">
+			<input type="text" name="writer" value="<%=nick%>" style="align:center;background:#101522; color:white;" readonly>
+			</td>
+		</tr>
+		<tr>
+			<td>글내용</td>
+			<td colspan="5" height="300px" width="700px">
+			<textarea class="board_textarea" rows="10" style="width: 95%; height : 295px;" name="content" placeholder="내용을 입력하세요."></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" align="center">
+			<input type="submit" value="작성">&nbsp;&nbsp;
+			<input type="button" value="이전" onclick="location.href='list.board'">
+			</td>
+		</tr>
+	</table>
+	</form>
+	</div>
+</section>	
 <%@ include file = "../include/footer.jsp" %>
 
 </body>

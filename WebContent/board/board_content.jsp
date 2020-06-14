@@ -46,7 +46,7 @@
 
 
 <%@ include file = "../include/header.jsp" %>
-<section id="board">
+<div id="board">
 	<div class="container">
 
 		<h2>게시글 내용</h2>
@@ -97,7 +97,7 @@
 	<!-- 댓글 영역 -->
 	<br><br>
 	
-	<div class="comment">
+	<div class="comment" style="overflow:hidden;height:auto;">
 		<table border="1" bordercolor="lightgray">
 		<c:if test="${comment_list != null }">
 			<c:forEach var="comment" items="${comment_list}">
@@ -155,7 +155,7 @@
             </c:if>
 		</table>
 	</div>
-</section>	
+</div>	
 
 	
 <%@ include file = "../include/footer.jsp" %>

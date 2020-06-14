@@ -36,22 +36,28 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body style="margin-top:140px;">
+<body style="background: #101522;">
 
 
 <%@ include file = "../include/header.jsp" %>
 
+	<section id="board_list">
+	<div>
+		<h2>게임 정보 공유 게시판</h2>
+		<br><br><br><br>
+		<p class="caution">로그인을 하지 않은 사용자에게는 읽기 기능만 제공합니다</p>
+	</div>
+	</section>
 	<div class="container">
-		<h3>게임 정보 공유 게시판</h3>
 
-		<table class="table table-bordered">
+		<table class="table table-bordered" style="color:white;">
 			<thead>
 				<tr>
 					<!-- <th>글번호</th> -->
 					<th>카테고리</th>
 					<th>닉네임</th>
 					<th>제목</th>
-					<th>날짜</th>
+					<th>작성한 날짜</th>
 					<th>조회수</th>
 				</tr>
 			</thead>
@@ -83,7 +89,6 @@
 		
 		</table>
 	</div>
-	
 
 	
 	

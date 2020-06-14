@@ -4,7 +4,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.webpage.board.comment.model.BoardCommentDAO;
-import com.webpage.board.comment.model.BoardCommentVO;
 
 public class CommentUpdateServiceImpl implements IBoardService{
 
