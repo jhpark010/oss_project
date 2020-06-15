@@ -751,12 +751,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details {
-  padding: 200px 0;
+  padding: 100px 0;
   background: #101522;
 }
 
 #speakers-details .details h2 {
-  color: #112363;
+  color: white;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -788,7 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details p {
-  color: #112363;
+  color: white;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -1815,4 +1815,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #101522;
 	color : white;
 	font-weight : bold;
+}
+.introduce{
+	text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9195a2;
 }

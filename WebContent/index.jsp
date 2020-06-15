@@ -90,8 +90,8 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>GAMES</h2>
-          <p>Here are some of their Games</p>
+          <h2>신작게임</h2>
+          <p>사진을 클릭하면 해당 게임에 대한 자세한 내용을 알 수 있습니다</p>
         </div>
 
         <div class="row">
@@ -242,7 +242,7 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>대회 일정</h2>
-          <p>원하는 월을 선택해서 해당하는 게임 대회의 정보를 볼 수 있습니다.</p>
+          <p>원하는 달을 선택해서 해당하는 게임 대회의 정보를 볼 수 있습니다.</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
@@ -398,7 +398,7 @@
               <div class="games-img">
                 <img src="img/games/lol.jpg" alt="LeagueofLegends" class="img-fluid">
               </div>
-              <h3><a href="#">League of Legends</a></h3>
+              <h3><a href="/Webpage/gamedetails/lol.jsp">League of Legends</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -412,9 +412,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/bg.jpg" alt="BattleGround" class="img-fluid">
+                <img src="img/games/bg.png" alt="BattleGrounds" class="img-fluid">
               </div>
-              <h3><a href="#">Battle Grounds</a></h3>
+              <h3><a href="/Webpage/gamedetails/battlegrounds.jsp">Battle Grounds</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -430,7 +430,7 @@
               <div class="games-img">
                 <img src="img/games/overwatch.jpg" alt="overwatch" class="img-fluid">
               </div>
-              <h3><a href="#">OverWatch</a></h3>
+              <h3><a href="/Webpage/gamedetails/overwatch.jsp">OverWatch</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -447,7 +447,7 @@
               <div class="games-img">
                 <img src="img/games/fifa.png" alt="FIFA online4" class="img-fluid">
               </div>
-              <h3><a href="#">FIFA online 4</a></h3>
+              <h3><a href="/Webpage/gamedetails/fifa.jsp">FIFA online 4</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -465,7 +465,7 @@
               <div class="games-img">
                 <img src="img/games/df.jpg" alt="dungeon and fighter" class="img-fluid">
               </div>
-              <h3><a href="#">Dungeon and Fighter</a></h3>
+              <h3><a href="/Webpage/gamedetails/dAndF.jsp">Dungeon and Fighter</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -482,7 +482,7 @@
               <div class="games-img">
                 <img src="img/games/sa.jpg" alt="Sudden Attack" class="img-fluid">
               </div>
-              <h3><a href="#">Sudden Attack</a></h3>
+              <h3><a href="/Webpage/gamedetails/sa.jsp">Sudden Attack</a></h3>
               <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>

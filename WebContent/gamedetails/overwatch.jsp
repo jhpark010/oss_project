@@ -28,7 +28,7 @@
   <link href="/Webpage/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="/Webpage/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: TheEvent
@@ -42,38 +42,36 @@
  
  <%@ include file="../include/header.jsp" %>
  
-  <!-- <main id="main" class="main-page"> -->
 
-    <!--==========================
-      Speaker Details Section
-    ============================-->
     <section id="speakers-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2>게임소개</h2>
-          <p>League of Legends</p>
+          <h2 style="color:white;">오버워치</h2>
+          <p>OVERWATCH</p>
         </div>
-
+        
+        <div class="introduce">
+          <p>게임 소개 및 소개 영상</p>
+        </div>
+        
         <div class="row">
-          <div class="col-md-6">
-            <img src="/Webpage/img/speakers/riots.jpg" alt="Speaker 1" class="img-fluid">
+          <div class="col-md-12">
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="details">
-              <h2>Brenden Legros</h2>
+              <h2>오버워치란?</h2>
               <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
+                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>공간1</p>
- 
-              <p>ìê° ëë²ì§¸ ì¤ ìëë¤~</p> 
-
-              <p>ìê° ì¸ë²ì§¸ ì¤ ìëë¤~</p>
-              <a href="https://kr.leagueoflegends.com/ko-kr/how-to-play/">ííì´ì§ë¡ ì´ë</a>
+              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
+              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
+              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
+              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
+              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
               
             </div>
           </div>
@@ -83,7 +81,6 @@
 
     </section>
 
-  <!-- </main> -->
 
 
   <!--==========================
