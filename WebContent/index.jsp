@@ -87,7 +87,7 @@
     <!--==========================
       Speakers Section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
+    <section id="newgames" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>신작게임</h2>
@@ -96,136 +96,89 @@
 
         <div class="row">
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 1" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/chasing light.jpg" alt="new-game 1" class="img-fluid">
               <div class="details">
-                <h3><a href="/Webpage/speaker-details.jsp">리그오브레전드<br>League of legends</a></h3>
-                <p>Riot Games</p>
+                <h3><a href="/Webpage/game_new_detail/cl.jsp">Chasing Light</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/cl.jsp">5월 5일 출시</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 2" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/cyber punk.jpg" alt="new-game 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">SampleText</a></h3>
-                <p>Consequuntur odio aut</p>
+                <h3><a href="/Webpage/game_new_detail/cp2077.jsp">Cyberpunk 2077</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href="/Webpage/game_new_detail/cp2077.jsp">9월 21일 출시예정</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 3" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/deathstranding.jpg" alt="new-game 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
-                <p>Fugiat laborum et</p>
+                <h3><a href="/Webpage/game_new_detail/ds.jsp">Death Stranding</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/ds.jsp">PC용은 20년 7월 14일 출시예정</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 4" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/ghost-of-tsushima.jpg" alt="new-game 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
-                <p>Debitis iure vero</p>
+                <h3><a href="/Webpage/game_new_detail/got.jsp">Ghost of Tsushima</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/got.jsp">7월 17일 출시예정</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 5" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/mbb.jpg" alt="new-game 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
-                <p>Qui molestiae natus</p>
+                <h3><a href="/Webpage/game_new_detail/mbb.jsp">Mount & Blade II: Bannerlord</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/mbb.jsp">3월 30일 출시</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 6" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/minecraft.png" alt="new-game 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
+                <h3><a href="/Webpage/game_new_detail/minecraft.jsp">Minecraft Dungeons</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/minecraft.jsp">5월 26일 출시</a>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-lg-3 col-md-6">
+            <div class="games">
+              <img src="/Webpage/img/gallery/predator.jpg" alt="new-game 7" class="img-fluid">
+              <div class="details">
+                <h3><a href="/Webpage/game_new_detail/predator.jsp">Predator: Hunting Grounds</a></h3>
+                <div class="social">
+                  <a href="/Webpage/game_new_detail/predator.jsp">4월 24일 출시</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 6" class="img-fluid">
+            <div class="games">
+              <img src="/Webpage/img/gallery/valorant.jpg" alt="new-game 8" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
+                <h3><a href="/Webpage/game_new_detail/valorant.jsp">VALORANT</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="speaker">
-              <img src="img/speakers/riots.jpg" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="/Webpage/game_new_detail/valorant.jsp">현재 클로즈 베타 서비스 진행 중</a>
                 </div>
               </div>
             </div>
@@ -576,102 +529,6 @@
 
     </section>
 
-    <!--==========================
-      Subscribe Section
-    ============================-->
-    <section id="subscribe">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="form-row justify-content-center">
-            <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            <div class="col-auto">
-              <button type="submit">Subscribe</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
-    </section>
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>불라불라불라</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>ê²½ê¸°ë ì©ì¸ì ìì§êµ¬ ***ë¡ </address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">02-2222-2222</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="이름을 입력하세요." />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="이메일을 입력하세요." />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:1" data-msg="제목을 입력하세요." />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="내용을 입력하세요." placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">확인</button></div>
-          </form>
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
-<!-- 61번줄 <main id="main"> // 1043번줄</main> 삭제 햇음 -->
-
-<!-- </main> -->
 
   <!--==========================
     Footer

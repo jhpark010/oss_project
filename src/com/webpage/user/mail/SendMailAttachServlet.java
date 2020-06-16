@@ -25,7 +25,7 @@ import javax.servlet.http.Part;
  * @author www.codejava.net
  *
  */
-@WebServlet("/user/SendMailAttachServlet")
+@WebServlet("*.SendMailAttachServlet")
 @MultipartConfig(fileSizeThreshold = 1024 * 1024 * 2,   // 2MB
                 maxFileSize = 1024 * 1024 * 10,         // 10MB
                 maxRequestSize = 1024 * 1024 * 50)      // 50MB
@@ -43,10 +43,7 @@ public class SendMailAttachServlet extends HttpServlet {
         user = context.getInitParameter("user");
         pass = context.getInitParameter("pass");
     }
- 
-    /**
-     * handles form submission
-     */
+
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {
         
@@ -64,16 +61,15 @@ public class SendMailAttachServlet extends HttpServlet {
         try {
             EmailUtility.sendEmailWithAttachment(host, port, user, pass,
                     recipient, subject, content, uploadedFiles);
-             
+            
             resultMessage = "The e-mail was sent successfully";
         } catch (Exception ex) {
             ex.printStackTrace();
             resultMessage = "There were an error: " + ex.getMessage();
         } finally {
-            //deleteUploadFiles(uploadedFiles);
-            request.setAttribute("message", resultMessage);
-            getServletContext().getRequestDispatcher("/user/user_ad_ok.jsp").forward(
-                    request, response);
+        	request.setAttribute("message", resultMessage);
+        	getServletContext().getRequestDispatcher("/user/user_ad_ok.jsp").forward(
+        			request, response);
         }
     }
  
@@ -128,12 +124,4 @@ public class SendMailAttachServlet extends HttpServlet {
         return null;
     }
      
-    /**
-     * Deletes all uploaded files, should be called after the e-mail was sent.
-     */
-	/*
-	 * private void deleteUploadFiles(List<File> listFiles) { if (listFiles != null
-	 * && listFiles.size() > 0) { for (File aFile : listFiles) { aFile.delete(); } }
-	 * }
-	 */
 }

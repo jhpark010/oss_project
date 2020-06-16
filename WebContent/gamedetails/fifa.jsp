@@ -43,7 +43,7 @@
  <%@ include file="../include/header.jsp" %>
  
 
-    <section id="speakers-details" class="wow fadeIn">
+    <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
           <h2 style="color:white;">피파온라인4</h2>

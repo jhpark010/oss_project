@@ -46,8 +46,8 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">오버워치</h2>
-          <p>OVERWATCH</p>
+          <h2 style="color:white;">프레데터 헌팅 그라운드</h2>
+          <p>Predator: Hunting Grounds(4월 24일 출시)</p>
         </div>
         
         <div class="introduce">
@@ -56,23 +56,25 @@
         
         <div class="row">
           <div class="col-md-12">
-            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/N-zJSJut3rA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>프레데터 헌팅 그라운드란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
-                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="https://www.epicgames.com/store/ko/product/predator-hunting-grounds/home"><i class="fa fa-home"></i></a>
                 <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
-              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
-              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
-              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
-              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
-              
+              <p>Predator: Hunting Grounds는 몰입형 비대칭 멀티플레이어 슈팅 게임으로, 외딴 정글에서 프레데터가 최강의 사냥감을 쫓으며 진행됩니다.</p>
+              <p>4인조 엘리트 파이어팀의 일원이 되어 프레데터에게 잡히기 전에 무장 단체 작전을 완료하세요.</p>
+              <p>또는 프레데터가 되어 가장 가치 있는 사냥감을 쫓고, 치명적 외계 기술을 다양하게 활용하여 전리품을 하나씩 수집하세요.</p>
+              <hr> 
+              <p>완전히 프레데터의 관점에서의 세계를 느껴 볼 수 있고</p>
+              <p>파이어팀 대원이 되어 권총에서 돌격용 자동 소총, 산탄총, 수류탄, 중화기까지 최신 무기를 휘두르거나 프레데터가 되어 어깨 장착 플라즈마 캐스터, 콤비스틱, 스마트 디스크, 리스트 블레이드 등 치명적인 외계 무기로 사냥할 수 있습니다.</p>
+              <p>멋대로 뻗어 나온 덤불과 나무가 가득한 남미의 여러 위험 분쟁지대에서 작전이 시작되고</p>
+              <p style="color:red; font-style:italic;">파이어팀 및 프레데터 무기를 잠금 해제하려면 게임 플레이를 해야합니다.</p>
             </div>
           </div>
           

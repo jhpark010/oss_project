@@ -73,10 +73,12 @@
 		<div class="owl-carousel gallery-carousel">
         <a href="/Webpage/img/gallery/chasing light.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/chasing light.jpg" alt=""></a>
         <a href="/Webpage/img/gallery/cyber punk.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/cyber punk.jpg" alt=""></a>
-        <a href="/Webpage/img/gallery/game1.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/game1.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/deathstranding.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/deathstranding.jpg" alt=""></a>
         <a href="/Webpage/img/gallery/ghost-of-tsushima.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/ghost-of-tsushima.jpg" alt=""></a>
         <a href="/Webpage/img/gallery/minecraft.png" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/minecraft.png" alt=""></a>
         <a href="/Webpage/img/gallery/valorant.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/valorant.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/mbb.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/mbb.jpg" alt=""></a>
+        <a href="/Webpage/img/gallery/predator.jpg" class="venobox" data-gall="gallery-carousel"><img src="/Webpage/img/gallery/predator.jpg" alt=""></a>
       </div>
 
     </section>

@@ -699,17 +699,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Speakers Section
 --------------------------------------------------------------*/
 
-#speakers {
+#newgames {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#newgames .games {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#newgames .games .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -720,53 +720,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#newgames .games .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#newgames .games .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#newgames .games .details .social {
   height: 30px;
 }
 
-#speakers .speaker .details a {
+#newgames .games .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#newgames .games .details a:hover {
   color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+#newgames .games:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#games-details {
   padding: 100px 0;
   background: #101522;
 }
 
-#speakers-details .details h2 {
+#games-details .details h2 {
   color: white;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#games-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#games-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -778,16 +778,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+#games-details .details .social a:hover {
   background: #f82249;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#games-details .details .social a i {
   font-size: 18px;
 }
 
-#speakers-details .details p {
+#games-details .details p {
   color: white;
   font-size: 15px;
   margin-bottom: 10px;

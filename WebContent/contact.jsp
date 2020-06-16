@@ -1,14 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	String id = (String) session.getAttribute("user_id");
-	String nick = (String) session.getAttribute("user_nick");
-
-	if (session.getAttribute("user_id") == null) {
-		response.sendRedirect("/Webpage/user/user_login.jsp");
-	}
-%>
-
+	request.setCharacterEncoding("utf-8");
+	String message = (String)request.getAttribute("message");
+%>	
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,17 +39,17 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body>
+<body style="margin-top:70px;">
 
 <%@ include file = "../include/header.jsp" %>
 
-	<section id="user_ad" style="margin-top: 70px;">
+	<section id="contact" class="section-bg wow fadeInUp">
 
       <div class="container">
 
-        <div>
-          <h1>홍보 건의</h1>
-          <p class="caution">게임홍보를 원하시는 분들은 아래의 양식을 작성해서 보내면<br>개발자의 이메일로 전송됩니다.<br>건의에 관한 결과는 이메일로 전송됩니다.</p>
+        <div class="section-header">
+          <h2>고객센터</h2>
+          <p>홈페이지 이용에 불편한 점이나 개선할 점은 아래 양식을 작성해서 제출해주시기 바랍니다.</p>
         </div>
 
         <div class="row contact-info">
@@ -63,7 +58,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>서울특별시 강남구 ***</address>
+              <address>서울 특별시 강남구 ***</address>
             </div>
           </div>
 
@@ -71,7 +66,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+12345678">02-1234-5678</a></p>
+              <p><a href="tel:+821111111111">02-2222-2222</a></p>
             </div>
           </div>
 
@@ -79,41 +74,39 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">sample@sample.com</a></p>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
             </div>
           </div>
 
         </div>
 
-		<div>
-				<form action="ad.SendMailAttachServlet" method="post" enctype="multipart/form-data" name="Form">
-					<table  border="0" width="60%" align="center">
-						<tr>
-							<td width="50%">연락받을 이메일</td>
-							<td><input type="text" name="email" size="40"/></td>
-						</tr>
-						<tr>
-							<td>제목</td>
-							<td><input type="text" name="subject" size="40"/></td>
-						</tr>
-						<tr>
-							<td>내용</td>
-							<td><textarea rows="15" cols="41" name="message"></textarea></td>
-						</tr>
-						<tr>
-							<td>첨부파일</td>
-							<td><input type="file" name="file" size="50" /></td>
-						</tr>
-						<tr>
-							<td colspan="2" align="center">
-							<button type="button" type="button" onclick="check()">확인</button>&nbsp;&nbsp;
-							<button type="button" onclick="location.href='/Webpage/user/user_mypage.jsp'">이전페이지</button>
-							</td>
-						</tr>
-					</table>
+        <div class="form">
+				<form action="Contact_servlet" method="post" role="form" class="contactForm">
+					<div>
+						<input type="hidden" name="value" value="service">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" name="email" id="email"
+							placeholder="Your Email" data-rule="email" data-msg="이메일을 입력하세요." />
+						<div class="validation"></div>
+					</div>
+
+					<div class="form-group">
+						<input type="text" class="form-control" name="subject"
+							id="subject" placeholder="Subject" data-rule="minlen:1"
+							data-msg="제목을 입력하세요." />
+						<div class="validation"></div>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" name="message" rows="5"
+							data-rule="required" data-msg="내용을 입력하세요." placeholder="Message"></textarea>
+						<div class="validation"></div>
+					</div>
+					<div class="text-center">
+						<button type="submit">확인</button>
+					</div>
 				</form>
 			</div>
-       
 
       </div>
     </section>

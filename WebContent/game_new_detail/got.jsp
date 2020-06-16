@@ -46,8 +46,8 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">오버워치</h2>
-          <p>OVERWATCH</p>
+          <h2 style="color:white;">고스트 오브 쓰시마</h2>
+          <p>Ghost of Tsushima(7월 17일 출시예정)</p>
         </div>
         
         <div class="introduce">
@@ -56,23 +56,23 @@
         
         <div class="row">
           <div class="col-md-12">
-            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/fxHTk_aQo7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>고스트 오브 쓰시마란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
-                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima-ps4/"><i class="fa fa-home"></i></a>
                 <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
-              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
-              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
-              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
-              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
-              
+              <p>때는 13세기 후반, 몽골 제국은 동쪽으로 영토를 확장하며 앞을 막는 국가들을 초토화시켰다.</p>
+              <p>잔혹하고 교활한 장군 코툰 칸이 지휘하는 거대한 몽골의 침략 세력과 일본 본토 사이에 존재하는 건, 오직 쓰시마 뿐이다.</p>
+              <p>몽골군의 첫 공격을 받아 불타는 섬 위에, 가문의 마지막 생존자 중 한 명인 사무라이 전사 사카이 진이 자리를 지킨다.</p> 
+              <p>그는 고향을 되찾고 주민들을 수호하기 위해 모든 것을 희생할 각오를 다진다.</p>
+              <p>그는 자신을 전사의 길로 이끈 전통을 뒤로하고, 새로운 길을 찾아 나선다.</p>
+              <p>그는 망령의 길을 따라 쓰시마의 자유를 위해 새로운 방식의 전투로 적을 상대해야 한다.</p>
             </div>
           </div>
           

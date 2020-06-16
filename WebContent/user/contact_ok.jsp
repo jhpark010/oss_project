@@ -4,7 +4,7 @@
 	request.setCharacterEncoding("utf-8");
 	
 	String message = (String)request.getAttribute("message");
-%>
+	%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
      "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -41,14 +41,10 @@
 	<%@ include file = "../include/header.jsp" %>
 	
 
-		<form action="user_mypage.jsp" method="post">
-			<h1>홍보건의를 정상적으로 처리하였습니다.</h1>
+		<form action="/Webpage/index.jsp#contact" method="post">
+			<h1>정상적으로 접수되었습니다.</h1>
 			<h2><%=message %></h2>
-				<input type="submit" value="마이페이지">
-				<input type="button" value="홍보건의" onclick="location.href='/Webpage/user/user_ad.jsp'">
-				
-	
-		
+				<input type="submit" value="홈으로 이동">
 		</form>
 		
 

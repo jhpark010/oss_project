@@ -43,7 +43,7 @@
  <%@ include file="../include/header.jsp" %>
  
 
-    <section id="speakers-details" class="wow fadeIn">
+    <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
           <h2 style="color:white;">리그 오브 레전드</h2>

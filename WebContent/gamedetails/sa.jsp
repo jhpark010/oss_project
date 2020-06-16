@@ -43,7 +43,7 @@
  <%@ include file="../include/header.jsp" %>
  
 
-    <section id="speakers-details" class="wow fadeIn">
+    <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
           <h2 style="color:white;">서든어택</h2>
@@ -61,7 +61,7 @@
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>서든어택이란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="http://sa.nexon.com/main/index.aspx"><i class="fa fa-home"></i></a>

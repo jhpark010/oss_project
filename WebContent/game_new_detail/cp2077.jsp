@@ -46,8 +46,8 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">오버워치</h2>
-          <p>OVERWATCH</p>
+          <h2 style="color:white;">사이버 펑크 2077</h2>
+          <p>Cyberpunk 2077 (9월 17일 출시예정)</p>
         </div>
         
         <div class="introduce">
@@ -56,23 +56,22 @@
         
         <div class="row">
           <div class="col-md-12">
-            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/qIcTM8WXFjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>사이버 펑크 2077란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
-                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="https://www.cyberpunk.net/kr/ko/"><i class="fa fa-home"></i></a>
                 <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
-              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
-              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
-              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
-              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
-              
+              <p>“사이버펑크 2077”은 권력, 사치와 신체 개조에 집착하는 거대 도시 “나이트 시티”를 배경으로 한 오픈 월드, 액션 어드벤처 게임입니다.</p>
+              <p>당신은 무법자 용병 “V”가 되어, 유일무이한 불멸의 열쇠를 뒤쫓고 있습니다.</p>
+              <p>당신은 사이버웨어와 다양한 능력, 플레이스타일을 변경할 수 있고</p> 
+              <p>거대한 도시를 탐험하며 당신의 선택과 결정이 스토리의 전개 뿐만 아니라 당신을 감싸고 있는 이 세계에 어떤 영향을 미치는지 확인할 수 있습니다.</p>
+              <p>2020년 9월 17일 출시 예정이며 현재 정식 홈페이지를 통해 사전 구매를 할 수 있다.</p>
             </div>
           </div>
           

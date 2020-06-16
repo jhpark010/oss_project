@@ -46,8 +46,8 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">오버워치</h2>
-          <p>OVERWATCH</p>
+          <h2 style="color:white;">마인크래프트: 던전</h2>
+          <p>Minecraft Dungeons(5월 26일 출시)</p>
         </div>
         
         <div class="introduce">
@@ -56,23 +56,21 @@
         
         <div class="row">
           <div class="col-md-12">
-            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/KCbE47v1qVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>마인크래프트: 던전이란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
-                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="https://www.microsoft.com/ko-kr/p/minecraft-dungeons-windows-10/9p8mk4nc0ljb?activetab=pivot:overviewtab"><i class="fa fa-home"></i></a>
                 <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
-              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
-              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
-              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
-              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
-              
+              <p>클래식 던전 크롤러에서 영감을 받아 Minecraft 세계에 구현된 완전히 새로운 액션 모험 게임에서 자신만의 방식으로 전투해 보세요!</p>
+              <p>최대 4명의 친구가 함께 플레이하거나, 혼자 용기를 내어 던전을 탐험할 수 있습니다.</p>
+              <p>악한 우민왕을 무찌르는 서사시같은 퀘스트를 진행하며 액션과 보물로 가득한 세계를 즐기며</p> 
+              <p>매우 다채로운 레벨에서 공격적인 신규 몹들과의 전투를 함께 진행해 보세요!</p>
             </div>
           </div>
           

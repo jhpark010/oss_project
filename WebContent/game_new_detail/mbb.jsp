@@ -46,8 +46,8 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">오버워치</h2>
-          <p>OVERWATCH</p>
+          <h2 style="color:white;">마운트 앤 블레이드 2: 배너로드</h2>
+          <p>Mount & Blade II: Bannerlord(3월 30일 출시)</p>
         </div>
         
         <div class="introduce">
@@ -56,23 +56,27 @@
         
         <div class="row">
           <div class="col-md-12">
-            <iframe width="1120" height="540" src="https://www.youtube.com/embed/dushZybUYnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1120" height="540" src="https://www.youtube.com/embed/t4hS6z_HLLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>마운트 앤 블레이드 2: 배너로드란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
-                <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
+                <a href="https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/?l=koreana"><i class="fa fa-home"></i></a>
                 <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
               </div>
-              <p>오버워치는 다수의 강력한 영웅을 플레이할 수 있는 다채로운 팀전 슈팅게임입니다.</p>
-              <p>32명의 영웅을 골라서 직접 게임을 플레이 할 수 있고 게임 도중에도 영웅을 교체할 수 있고</p>
-              <p>각 영웅들은 돌격, 공격, 지원 성향들을 가지고 있어서 게임 내에서 전략적으로 영웅을 선택할 수 있습니다.</p> 
-              <p>오버워치를 즐기는 방법에는 여러 가지가 있으나, 우선 튜토리얼을 통해 가장 기본적인 플레이 방법을 배우길 권장합니다.</p>
-              <p>이미 튜토리얼을 완료했다면 주 메뉴를 통해 다시 플레이해볼 수 있습니다.</p>
-              
+              <p>Mount & Blade II: Bannerlord는 호평을 받았던 중세 전투 시뮬레이션 및 롤플레잉 게임</p>
+              <p> Mount & Blade: Warband의 큰 기대를 모으고 있는 속편입니다.</p>
+              <p>200년 전을 배경으로 하는 이 속편은 세부적인 전투 시스템과 칼란디아의 세계를 확장했습니다.</p> 
+              <p>공성 병기로 산 요새를 폭격하고, 도시의 뒷골목에 비밀스러운 범죄자 왕국을 건설하고, 힘을 차지하기 위해 혼전이 벌어지는 전장에 뛰어드십시오.</p>
+              <hr>
+              <div style="font-style: italic;">
+              <p>뿔피리 소리가 나고 큰까마귀들이 몰려듭니다. 제국은 내전에 의해 분열됩니다. 국경 너머에서 새로운 왕국이 탄생합니다.</p>
+              <p>검을 차고 갑옷을 입고 추종자들을 불러 모은 다음 앞으로 달려나가 칼란디아의 전장에서 영광스러운 승리를 차지하십시오.</p>
+              <p>패권을 차지하고 이전 세계의 잿더미 위에 새로운 세계를 창조하십시오.</p>
+              </div>
             </div>
           </div>
           
