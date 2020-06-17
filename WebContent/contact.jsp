@@ -7,15 +7,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <meta charset="utf-8">
+  <title>OIS - Onlinegame Information Sharing site</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
   <link href="/Webpage/img/favicon.png" rel="icon">
-  <link href="/Webpage/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/Webpage/img/icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">

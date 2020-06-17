@@ -12,44 +12,26 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>즐겨찾는 메뉴</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="/Webpage/index.jsp#intro">메인</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="/Webpage/index.jsp#newgames">신작게임</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="/Webpage/index.jsp#games">게임목록</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="/Webpage/board/list.board">게시판</a></li>
+              <%if(session.getAttribute("user_id")==null){%>
+              	<li><i class="fa fa-angle-right"></i> <a href="/Webpage/user/user_login.jsp">로그인</a></li>
+              <%}else{ %>
+              	<li><i class="fa fa-angle-right"></i> <a href="/Webpage/user/user_logout.jsp">로그아웃</a></li>
+              <%} %>
             </ul>
           </div>
 
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div> -->
-
           <div class="col-lg-4 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>              
+            <h4>개발자 연락처</h4>
+            <p>서울특별시<br>강남구<br>*****로<br>
+              <strong>Phone:</strong> 010 - **** - ****<br>
+              <strong>Email:</strong> test@test.com<br>              
             </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
 
           </div>
 

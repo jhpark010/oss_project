@@ -41,7 +41,6 @@ public class ContentServiceImpl implements IBoardService{
 
 		}
 		
-		System.out.println("게시물 번호: "+num);
 		
 		//게시글 정보를 가져오는 메서드
 		BoardVO vo = dao.getContent(num);

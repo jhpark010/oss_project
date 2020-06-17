@@ -10,9 +10,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!-- Favicons -->
+  <title>OIS - Onlinegame Information Sharing site</title>
+
+  <!-- Favicons -->
   <link href="/Webpage/img/favicon.png" rel="icon">
-  <link href="/Webpage/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/Webpage/img/icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">

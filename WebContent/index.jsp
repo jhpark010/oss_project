@@ -5,14 +5,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <title>OIS - Onlinegame Information Sharing site</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
   <link href="/Webpage/img/favicon.png" rel="icon">
-  <link href="/Webpage/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/Webpage/img/icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -50,11 +50,11 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0">5월 2주차<br><span>온라인게임</span> TOP20소개영상</h1>
+      <h1 class="mb-4 pb-0">6월 2주차<br><span>온라인게임</span> TOP20소개영상</h1>
       <p class="mb-4 pb-0">Weekly Online Game Top 20 in Korea</p>
-      <a href="https://youtu.be/7PARdyFE8K8" class="venobox play-btn mb-4" data-vbtype="video"
+      <a href="https://www.youtube.com/watch?v=qluGhx2UVwA" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">현재 온라인게임 순위 한눈에 보기</a>
+      <!-- <a href="#about" class="about-btn scrollto">현재 온라인게임 순위 한눈에 보기</a> -->
     </div>
   </section>
 
@@ -67,18 +67,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2>About This Project</h2>
+            <p>기존에 있는 웹사이트들 보다 깔끔하고 보기 좋게 디자인하고 기존 출시된 게임들에 대한 소개를 볼 수 있고 신작 게임만 모아놓은 섹션도 있어서 한 눈에 어떤 게임이 신작게임이고 그 게임에 대한 간략한 소개를 볼 수 있다. </p>
+            <p>또한 게시판을 이용해서 사람들은 자기가 게임에 대해서 다른 사람들과 게시글 작성과 댓글을 통해 소통할 수 있습니다.<br>개발자와의 소통은 고객센터를 통해서 할 수 있습니다.</p>
           </div>
           <div class="col-lg-3">
-            <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
+            <h3>제작년도</h3>
+            <p>2020년 4월 ~ 6월</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+            <h3>만든이</h3>
+            <p>박주현 - 2016244090<br>이동건 - 2016244075<br>장동호 - 2016244003</p>
           </div>
         </div>
       </div>
@@ -97,7 +96,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="games">
-              <img src="/Webpage/img/gallery/chasing light.jpg" alt="new-game 1" class="img-fluid">
+              <img src="/Webpage/img/gallery/chasing light.png" alt="new-game 1" class="img-fluid">
               <div class="details">
                 <h3><a href="/Webpage/game_new_detail/cl.jsp">Chasing Light</a></h3>
                 <div class="social">
@@ -460,7 +459,7 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>자주하는 질문(ex.F.A.Q) </h2>
+          <h2>자주하는 질문</h2>
         </div>
 
         <div class="row justify-content-center">
@@ -468,55 +467,37 @@
               <ul id="faq-list">
 
                 <li>
-                  <a data-toggle="collapse" class="collapsed" href="#faq1">질문 1 <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1">이 홈페이지를 왜 만들게 되었나요? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq1" class="collapse" data-parent="#faq-list">
                     <p>
-			                    질문 1에 대한 답변 1
+			                    기존의 게임 정보 공유 사이트는 디자인적으로나 게임에 대한 정리면에서도 많이 복잡해서 디자인적으로나 기능면에서도 깔끔하게 사용자에게 보여주기 위해 제작되었습니다.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed">신작게임이나 기존게임들에 대해 다른 게임을 올리고 싶은데 어떻게 하나요?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq2" class="collapse" data-parent="#faq-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                      	회원가입을 안하셨다면 먼저 회원가입을 한 후 로그인을 하면 마이페이지에 '홍보건의' 버튼을 이용해서 건의를 해주시면 검토 후 추가가 됩니다.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">비회원은 게시판을 이용할 수 없나요?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq3" class="collapse" data-parent="#faq-list">
                     <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    	로그인 하지 않은 사용자(비회원)도 게시판은 이용할 수 있지만 게시글 작성이나 댓글 작성에 제한이 걸려있으니 로그인을 통해 더 많은 기능을 이용하시면 됩니다.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">자주하는 질문 외에 질문을 하고 싶으면 어떻게 하나요? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq4" class="collapse" data-parent="#faq-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
-                  </div>
-                </li>
-      
-                <li>
-                  <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq5" class="collapse" data-parent="#faq-list">
-                    <p>
-                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                    </p>
-                  </div>
-                </li>
-      
-                <li>
-                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
-                  <div id="faq6" class="collapse" data-parent="#faq-list">
-                    <p>
-                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    	상단의 고객센터를 클릭하셔서 고객센터 양식을 작성하신 다음에 확인 버튼을 누르시면 보내주신 내용에 대한 답변은 양식을 작성할 때 적어주셨던 이메일로 전송이 됩니다.
                     </p>
                   </div>
                 </li>

@@ -49,7 +49,6 @@ public class BoardController extends HttpServlet {
 		String path = request.getContextPath();
 		String command = uri.substring(path.length());
 		
-		System.out.println(command); //경로확인용 (추후 삭제 할 것)
 		
 		IBoardService sv;
 		

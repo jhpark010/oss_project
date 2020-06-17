@@ -6,10 +6,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <title>OIS - Onlinegame Information Sharing site</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="/Webpage/img/favicon.png" rel="icon">
+  <link href="/Webpage/img/icon.png" rel="apple-touch-icon">
 
   <!-- Favicons -->
   <link href="/Webpage/img/favicon.png" rel="icon">

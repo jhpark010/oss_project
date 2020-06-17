@@ -14,21 +14,20 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="/Webpage/index.jsp#about">About</a></li>
+          <li class="menu-active"><a href="#intro">메인</a></li>
+          <li><a href="/Webpage/index.jsp#about">소개</a></li>
           <li><a href="/Webpage/index.jsp#newgames">신작게임</a></li>
           <li><a href="/Webpage/index.jsp#schedule">대회</a></li>
           <li><a href="/Webpage/index.jsp#games">게임목록</a></li>
           <li><a href="/Webpage/board/list.board">게시판</a></li>
           <li><a href="/Webpage/index.jsp#faq">자주하는질문</a></li>
           <li><a href="/Webpage/contact.jsp">고객센터</a></li>
-          <!-- 추후에 삭제할 것!  <li class="buy-tickets"><a href="index.jsp#buy-tickets">Buy Tickets</a></li>-->
           <%if(session.getAttribute("user_id")==null){%>
-          <li class="buy-tickets"><a href="/Webpage/user/user_login.jsp">Login</a></li>
-          <li class="buy-tickets"><a href="/Webpage/user/user_signUp.jsp">Sign up</a></li>
+          <li class="button"><a href="/Webpage/user/user_login.jsp">Login</a></li>
+          <li class="button"><a href="/Webpage/user/user_signUp.jsp">Sign up</a></li>
           <%}else{ %>
-          <li class="buy-tickets"><a href="/Webpage/user/user_mypage.jsp">Mypage</a></li>
-          <li class="buy-tickets"><a href="/Webpage/user/user_logout.jsp">Logout</a></li>
+          <li class="button"><a href="/Webpage/user/user_mypage.jsp">Mypage</a></li>
+          <li class="button"><a href="/Webpage/user/user_logout.jsp">Logout</a></li>
           <%} %>
           
         </ul>
