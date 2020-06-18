@@ -76,24 +76,19 @@ public class BoardCommentDAO {
 		String sql = "insert into board_comment(comment_board,comment_id,comment_content) values(?,?,?)";
 		
 		try {
-			System.out.println("디비 시작");
 			conn = ds.getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, board_num);
 			pstmt.setString(2, comment_id);
 			pstmt.setString(3, content);
 			
-			System.out.println("업데이트 전");
-			
 			pstmt.executeUpdate();
 			
-			System.out.println("업데이트 후");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}finally {
 			JdbcUtil.close(conn, pstmt, rs);
 		}
-		System.out.println("디비 끝냄");
 	}
 	
 	public BoardCommentVO getComment(int comment_num) {
@@ -157,6 +152,25 @@ public class BoardCommentDAO {
 			conn = ds.getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, comment_num);
+			
+			pstmt.executeUpdate();
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+	}
+	
+	public void board_delete(String num) {
+		
+		String sql = "delete from board_comment where comment_board = ?";
+		
+		try {
+			
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, num);
 			
 			pstmt.executeUpdate();
 			
