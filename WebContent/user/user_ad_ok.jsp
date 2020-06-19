@@ -44,8 +44,8 @@
 	
 
 		<form action="user_mypage.jsp" method="post">
-			<h1>홍보건의를 정상적으로 처리하였습니다.</h1>
-			<h2><%=message %></h2>
+			<h1>홍보건의를 다음과 같이 처리하였습니다.</h1>
+			<h2 style="color:red;"><%=message %></h2>
 				<input type="submit" value="마이페이지">
 				<input type="button" value="홍보건의" onclick="location.href='/Webpage/user/user_ad.jsp'">
 				

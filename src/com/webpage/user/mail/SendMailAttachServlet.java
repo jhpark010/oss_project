@@ -62,10 +62,10 @@ public class SendMailAttachServlet extends HttpServlet {
             EmailUtility.sendEmailWithAttachment(host, port, user, pass,
                     recipient, subject, content, uploadedFiles);
             
-            resultMessage = "The e-mail was sent successfully";
+            resultMessage = "정상적으로 처리 완료";
         } catch (Exception ex) {
             ex.printStackTrace();
-            resultMessage = "There were an error: " + ex.getMessage();
+            resultMessage = "오류발생 : " + ex.getMessage();
         } finally {
         	request.setAttribute("message", resultMessage);
         	getServletContext().getRequestDispatcher("/user/user_ad_ok.jsp").forward(

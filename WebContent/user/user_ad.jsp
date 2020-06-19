@@ -106,7 +106,7 @@
 						</tr>
 						<tr>
 							<td colspan="2" align="center">
-							<button type="button" type="button" onclick="check()">확인</button>&nbsp;&nbsp;
+							<button type="button" onclick="check()">확인</button>&nbsp;&nbsp;
 							<button type="button" onclick="location.href='/Webpage/user/user_mypage.jsp'">이전페이지</button>
 							</td>
 						</tr>

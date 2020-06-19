@@ -13,13 +13,19 @@
 	
 	UserDAO dao = UserDAO.getInstance();
 	int result1 = dao.idConfirm(id);
+	int result3 = dao.nickConfirm(nick);
 %>
 <% if(result1==1){%>
 	<script>
 		alert("아이디가 중복됩니다.");
 		history.go(-1);
 	</script>
-	<%}else{
+<%	}else if(result3==1){%>
+	<script>
+		alert("닉네임이 중복됩니다.");
+		history.go(-1);
+	</script>
+<%	}else{
 		UserVO vo = new UserVO(id,pw,nick,email,address,null); //마지막의 null은 회원가입 했을 때의 시간이라 vo생성 시에는 null값으로 한다.
 		int result2 = dao.signUp(vo);							//해당 값은 mysql내에서 테이블에 새로운 레코드를 추가 할 때 자동으로 시간이 저장됨
 		

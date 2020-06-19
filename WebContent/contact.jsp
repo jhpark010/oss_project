@@ -50,6 +50,7 @@
         <div class="section-header">
           <h2>고객센터</h2>
           <p>홈페이지 이용에 불편한 점이나 개선할 점은 아래 양식을 작성해서 제출해주시기 바랍니다.</p>
+          <p>이메일,제목,내용은 필수입력 항목입니다.</p>
         </div>
 
         <div class="row contact-info">
@@ -81,29 +82,22 @@
         </div>
 
         <div class="form">
-				<form action="Contact_servlet" method="post" role="form" class="contactForm">
+				<form action="Contact_servlet" method="post" role="form" class="contactForm" name="Form">
 					<div>
 						<input type="hidden" name="value" value="service">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control" name="email" id="email"
-							placeholder="Your Email" data-rule="email" data-msg="이메일을 입력하세요." />
-						<div class="validation"></div>
+						<input type="email" class="form-control" name="email" placeholder="이메일을 입력하세요.">
 					</div>
 
 					<div class="form-group">
-						<input type="text" class="form-control" name="subject"
-							id="subject" placeholder="Subject" data-rule="minlen:1"
-							data-msg="제목을 입력하세요." />
-						<div class="validation"></div>
+						<input type="text" class="form-control" name="subject" placeholder="제목을 입력하세요.">
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" name="message" rows="5"
-							data-rule="required" data-msg="내용을 입력하세요." placeholder="Message"></textarea>
-						<div class="validation"></div>
+						<textarea class="form-control" name="message" rows="5" placeholder="내용을 입력해주세요."></textarea>
 					</div>
 					<div class="text-center">
-						<button type="submit">확인</button>
+						<button type="button" onclick="check()">확인</button>
 					</div>
 				</form>
 			</div>

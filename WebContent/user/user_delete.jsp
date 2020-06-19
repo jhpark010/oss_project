@@ -2,6 +2,11 @@
     pageEncoding="UTF-8"%>
 <%
 	String id = (String)session.getAttribute("user_id");
+
+	if (session.getAttribute("user_id") == null) {
+		response.sendRedirect("/Webpage/user/user_login.jsp");
+}
+
 %>
 
 <!DOCTYPE html>

@@ -20,7 +20,7 @@
 %>
 				<script>
 					alert("정상적으로 회원탈퇴 되었습니다.");
-					location.href='/Webpage/user/user_login.jsp';
+					location.href='/Webpage/index.jsp';
 				</script>
 <%			}else{%>
 				<script>

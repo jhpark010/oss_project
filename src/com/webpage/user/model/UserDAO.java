@@ -36,10 +36,37 @@ public class UserDAO {
 		int result = 0;
 		
 		String sql = "select * from user where id=?";
-		
 		try {
 			conn = ds.getConnection();
 			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+				result = 1;
+			}else {
+				result = 0;
+			}
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtil.close(conn, pstmt, rs);
+		}
+		
+		return result;
+		
+	}
+	
+	public int nickConfirm(String nick) {
+		int result = 0;
+		
+		String sql = "select * from user where nick=?";
+		try {
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, nick);
 			rs = pstmt.executeQuery();
 			
 			if(rs.next()) {
