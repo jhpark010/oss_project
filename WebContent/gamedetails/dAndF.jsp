@@ -61,11 +61,11 @@
 
           <div class="col-md-12">
             <div class="details">
-              <h2>오버워치란?</h2>
+              <h2>던전앤파이터란?</h2>
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://playoverwatch.com/ko-kr/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>네오플이 제작하고 넥슨에서 서비스하는 벨트스크롤 액션 게임이다.</p>
               <hr>

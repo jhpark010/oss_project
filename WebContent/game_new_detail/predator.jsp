@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://www.epicgames.com/store/ko/product/predator-hunting-grounds/home"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>Predator: Hunting Grounds는 몰입형 비대칭 멀티플레이어 슈팅 게임으로, 외딴 정글에서 프레데터가 최강의 사냥감을 쫓으며 진행됩니다.</p>
               <p>4인조 엘리트 파이어팀의 일원이 되어 프레데터에게 잡히기 전에 무장 단체 작전을 완료하세요.</p>

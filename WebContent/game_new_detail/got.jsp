@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima-ps4/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>때는 13세기 후반, 몽골 제국은 동쪽으로 영토를 확장하며 앞을 막는 국가들을 초토화시켰다.</p>
               <p>잔혹하고 교활한 장군 코툰 칸이 지휘하는 거대한 몽골의 침략 세력과 일본 본토 사이에 존재하는 건, 오직 쓰시마 뿐이다.</p>

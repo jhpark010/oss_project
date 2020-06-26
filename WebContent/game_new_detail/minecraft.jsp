@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://www.microsoft.com/ko-kr/p/minecraft-dungeons-windows-10/9p8mk4nc0ljb?activetab=pivot:overviewtab"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>클래식 던전 크롤러에서 영감을 받아 Minecraft 세계에 구현된 완전히 새로운 액션 모험 게임에서 자신만의 방식으로 전투해 보세요!</p>
               <p>최대 4명의 친구가 함께 플레이하거나, 혼자 용기를 내어 던전을 탐험할 수 있습니다.</p>

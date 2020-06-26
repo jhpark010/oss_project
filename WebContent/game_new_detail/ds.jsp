@@ -66,7 +66,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://deathstrandingpc.505games.com/ko/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>세계는 영원히 변했습니다</p>
               <hr>

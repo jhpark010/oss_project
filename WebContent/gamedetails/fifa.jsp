@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="http://fifaonline4.nexon.com/main/index"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>FIFA 온라인 4 (EA Sports™ FIFA Online 4 또는 FIFA Online 4, 이하 피파 온라인 4)는</p>
               <p>FIFA 17의 플레이와FIFA 18의 그래픽 및 게임 요소를 기반으로 </p>

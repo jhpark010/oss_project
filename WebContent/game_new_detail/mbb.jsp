@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/?l=koreana"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>Mount & Blade II: Bannerlord는 호평을 받았던 중세 전투 시뮬레이션 및 롤플레잉 게임</p>
               <p> Mount & Blade: Warband의 큰 기대를 모으고 있는 속편입니다.</p>

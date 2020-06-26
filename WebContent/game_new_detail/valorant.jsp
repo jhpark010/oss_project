@@ -66,7 +66,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://playvalorant.com/ko-kr/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p> 발로란트는 5대5 전술 슈팅 게임으로, 진영에 따라 스파이크를 설치하거나 해체하는 것이 목표입니다.</p>
               <p>한 번 처치되면 다음 라운드까지 기다려야 하며, 13라운드를 먼저 이기는 팀이 승리를 합니다.</p>

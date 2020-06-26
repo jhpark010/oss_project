@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://www.cyberpunk.net/kr/ko/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>“사이버펑크 2077”은 권력, 사치와 신체 개조에 집착하는 거대 도시 “나이트 시티”를 배경으로 한 오픈 월드, 액션 어드벤처 게임입니다.</p>
               <p>당신은 무법자 용병 “V”가 되어, 유일무이한 불멸의 열쇠를 뒤쫓고 있습니다.</p>

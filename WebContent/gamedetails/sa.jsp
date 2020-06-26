@@ -69,7 +69,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="http://sa.nexon.com/main/index.aspx"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>2005년에 서비스를 시작한 서든어택은 넥슨지티(전 게임하이)가 개발한 온라인 1인칭 슈팅 게임이다.</p>
               <hr>

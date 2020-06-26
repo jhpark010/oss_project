@@ -54,11 +54,8 @@
       <p class="mb-4 pb-0">Weekly Online Game Top 20 in Korea</p>
       <a href="https://www.youtube.com/watch?v=qluGhx2UVwA" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <!-- <a href="#about" class="about-btn scrollto">현재 온라인게임 순위 한눈에 보기</a> -->
     </div>
   </section>
-
-  <!-- <main id="main"> -->
 
     <!--==========================
       About Section
@@ -180,6 +177,13 @@
                   <a href="/Webpage/game_new_detail/valorant.jsp">현재 클로즈 베타 서비스 진행 중</a>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="games" style="opacity:0.2;">
+            	<a href="/Webpage/user/user_ad.jsp">
+            		<img src="/Webpage/img/plus.png" alt="plus" class="img-fluid">
+            	</a>
             </div>
           </div>
         </div>
@@ -444,6 +448,15 @@
               <p style="font-weight:bold;">#서든어택 #서든 #FPS</p>
             </div>
           </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="games">
+              <div class="games-img" style="opacity: 0.2;">
+              	<a href="/Webpage/user/user_ad.jsp">
+                	<img src="img/plus.png" alt="plus" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -509,43 +522,7 @@
       </div>
 
     </section>
-    <section id="contact" class="section-bg wow fadeInUp">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h2>고객센터</h2>
-          <p>홈페이지 이용에 불편한 점이나 개선할 점은 아래 양식을 작성해서 제출해주시기 바랍니다.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>서울 특별시 강남구 ***</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+821111111111">02-2222-2222</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-
+    
 
   <!--==========================
     Footer

@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://www.pubg.com/ko/"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>PLAYERUNKNOWN`S BATTLEGROUNDS는 배틀로얄 게임으로</p>
               <p>외딴 섬에서 최대 100명(단, 카라킨은 최대 64명)의 플레이어가 다양한 무기와 전략을</p>

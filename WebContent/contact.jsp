@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%
-	request.setCharacterEncoding("utf-8");
-	String message = (String)request.getAttribute("message");
-%>	
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -116,7 +113,7 @@
 			}else if(document.Form.message.value==''){
 				alert("내용은 필수 입력 항목입니다.");
 				return;
-			}else if(confirm("홍보건의를 완료하시겠습니까?")){
+			}else if(confirm("해당 내용을 접수하시겠습니까?")){
 				document.Form.submit();
 			}
 		}

@@ -46,7 +46,7 @@
     <section id="games-details" class="wow fadeIn">
       <div class="container">
         <div class="section-header">
-          <h2 style="color:white;">사이버 펑크 2077</h2>
+          <h2 style="color:white;">체이싱 라이트</h2>
           <p>Chasing Light (5월 5일 출시)</p>
         </div>
         
@@ -65,7 +65,7 @@
               <div class="social">
                 <a href="/Webpage/index.jsp"><i class="fa fa-arrow-left"></i></a>
                 <a href="https://store.steampowered.com/app/1247110/Chasing_Light/?l=koreana"><i class="fa fa-home"></i></a>
-                <a href="/Webpage/user/user_login.jsp"><i class="fa fa-sign-in"></i></a>
+                <a href="/Webpage/board/list.board"><i class="fa fa-sign-in"></i></a>
               </div>
               <p>체이싱 라이트는 게임을 해체하고 혁명하려는 게임이며, 게임이 위대한 예술임을 증명하려는 작품입니다.</p>
               <p>게임이란 무엇일까요? 게임은 무엇으로 구성되어야 하는 걸까요? 게임은 어떠해야 하는 걸까요?</p>
