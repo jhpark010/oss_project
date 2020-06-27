@@ -50,56 +50,6 @@
 
 <%@ include file = "../include/header.jsp" %>
 
-<%-- <div id="board">
-	<h3>게시판 글 작성 페이지</h3>
-	<hr>
-	<section>
-	<form action="regist.board" method="post">
-		<table border="1">
-			<tr>
-				<td>닉네임</td>
-				<td>
-					<input type="text" name="writer" value="<%=nick%>" readonly>
-				</td>
-			</tr>
-			<tr>
-				<td>카테고리</td>
-				<td>
-					<select name="category">
-						<option value="자유">자유</option>
-						<option value="RTS">RTS</option>
-						<option value="스포츠">스포츠</option>
-						<option value="FPS">FPS</option>
-						<option value="RPG">RPG</option>
-						<option value="RTS">RTS</option>
-					</select>
-				</td>
-			</tr>
-			<tr>
-				<td>글 제목</td>
-				<td class="board_text" colspan="5">
-					<input type="text" name="title" >
-				</td>
-			</tr>
-			<tr>
-				<td>글 내용</td>
-				<td>
-					<textarea class="board_textarea" rows="10" style="width: 95%; height : 295px;" name="content"></textarea>
-					<!-- background:#101522 // color: white -->
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2">
-					<input type="submit" value="작성 완료">
-					&nbsp;&nbsp;
-					<input type="button" value="목록" onclick="location.href='list.board' ">         
-				</td>
-			</tr>
-			
-		</table>
-	</form>
-	</section>
-</div> --%>
 <section id="board">
 	<div class="container">
 

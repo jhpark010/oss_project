@@ -148,7 +148,7 @@
                 <!-- 댓글 등록 버튼 -->
                 <td width="100">
                     <div id="btn" style="text-align:center;">
-                        <input type="button" value="[댓글등록]" onclick="check()">
+                        <input type="button" value="댓글등록" onclick="check()">
                     </div>
                 </td>
             </form>

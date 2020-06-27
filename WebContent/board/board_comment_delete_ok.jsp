@@ -3,4 +3,4 @@
 <script>
 	alert("해당 댓글이 삭제되었습니다.");
 	location.href = document.referrer;
-</script>
+</script>	

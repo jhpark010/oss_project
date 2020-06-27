@@ -43,7 +43,7 @@
 
 	<section id="board_list">
 	<div>
-		<h2>게임 정보 공유 게시판</h2>
+		<h1>게임 정보 공유 게시판</h1>
 		<br><br><br><br>
 		<p class="caution">로그인을 하지 않은 사용자에게는 읽기 기능만 제공합니다</p>
 	</div>
