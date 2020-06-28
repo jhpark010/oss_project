@@ -29,6 +29,8 @@ public class Contact_servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {
         // reads form fields
+    	request.setCharacterEncoding("utf-8");
+    	
         String recipient = request.getParameter("email");
         String subject = request.getParameter("subject");
         String content = request.getParameter("message");

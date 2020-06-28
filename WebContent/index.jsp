@@ -352,7 +352,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/lol.jpg" alt="LeagueofLegends" class="img-fluid">
+              	<a href="/Webpage/gamedetails/lol.jsp">
+                	<img src="img/games/lol.jpg" alt="LeagueofLegends" class="img-fluid">
+              	</a>
               </div>
               <h3><a href="/Webpage/gamedetails/lol.jsp">League of Legends</a></h3>
               <div class="stars">
@@ -368,7 +370,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/bg.png" alt="BattleGrounds" class="img-fluid">
+              	<a href="/Webpage/gamedetails/battlegrounds.jsp">
+                	<img src="img/games/bg.png" alt="BattleGrounds" class="img-fluid">
+                </a>
               </div>
               <h3><a href="/Webpage/gamedetails/battlegrounds.jsp">Battle Grounds</a></h3>
               <div class="stars">
@@ -384,7 +388,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/overwatch.jpg" alt="overwatch" class="img-fluid">
+              	<a href="/Webpage/gamedetails/overwatch.jsp">
+                	<img src="img/games/overwatch.jpg" alt="overwatch" class="img-fluid">
+                </a>
               </div>
               <h3><a href="/Webpage/gamedetails/overwatch.jsp">OverWatch</a></h3>
               <div class="stars">
@@ -401,7 +407,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/fifa.png" alt="FIFA online4" class="img-fluid">
+              	<a href="/Webpage/gamedetails/fifa.jsp">
+                	<img src="img/games/fifa.png" alt="FIFA online4" class="img-fluid">
+                </a>
               </div>
               <h3><a href="/Webpage/gamedetails/fifa.jsp">FIFA online 4</a></h3>
               <div class="stars">
@@ -419,7 +427,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/df.jpg" alt="dungeon and fighter" class="img-fluid">
+              	<a href="/Webpage/gamedetails/dAndF.jsp">
+                	<img src="img/games/df.jpg" alt="dungeon and fighter" class="img-fluid">
+                </a>
               </div>
               <h3><a href="/Webpage/gamedetails/dAndF.jsp">Dungeon and Fighter</a></h3>
               <div class="stars">
@@ -436,7 +446,9 @@
           <div class="col-lg-4 col-md-6">
             <div class="games">
               <div class="games-img">
-                <img src="img/games/sa.jpg" alt="Sudden Attack" class="img-fluid">
+              	<a href="/Webpage/gamedetails/sa.jsp">
+                	<img src="img/games/sa.jpg" alt="Sudden Attack" class="img-fluid">
+                </a>
               </div>
               <h3><a href="/Webpage/gamedetails/sa.jsp">Sudden Attack</a></h3>
               <div class="stars">

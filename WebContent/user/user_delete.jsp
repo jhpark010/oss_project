@@ -44,7 +44,7 @@
     License: https://bootstrapmade.com/license/
   ======================================================= -->
 </head>
-<body>
+<body style="margin-bottom:70px;">
 
 <%@ include file = "../include/header.jsp" %>
 
@@ -55,10 +55,10 @@
 				<input type="password" name="pw" placeholder="Enter the password">
 				<input type="submit"  value="확인">
 				<input type="button" value="이전" onclick="location.href='/Webpage/user/user_mypage.jsp'">
+				<br><br><br>
 				
 				
 		
-		<!-- </div> -->
 		</form>
 	</section>
 <%@ include file = "../include/footer.jsp" %>

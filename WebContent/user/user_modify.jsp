@@ -79,8 +79,8 @@
 					</tr>
 					
 					<tr>
-						<td>닉네임 *</td>
-						<td><input type="text" name="nick" value="<%= nick%>"></td>
+						<td>닉네임(변경 X)</td>
+						<td><input type="text" name="nick" value="<%= nick%>" readonly></td>
 					</tr>
 					
 					<tr>
@@ -113,9 +113,6 @@
 				alert("비밀번호는 필수 입력 항목입니다.");
 			}else if(document.Form.pw.value!=document.Form.pw_check.value){
 				alert("입력하신 두 개의 비밀번호가 일치하지 않습니다.");
-				return;
-			}else if(document.Form.nick.value==''){
-				alert("닉네임은 필수사항입니다.");
 				return;
 			}else if(document.Form.email.value==''){
 				alert("이메일은 필수사항입니다.");
